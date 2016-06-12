@@ -1,0 +1,13 @@
+{
+  "name": "meteor-truffle",
+  "private": true,
+  "scripts": {
+    "start": "meteor run"
+  },
+  "dependencies": {
+    "bignumber.js": "^2.3.0",
+    "ether-pudding": "^2.0.6",
+    "meteor-node-stubs": "^0.2.3",
+    "web3": "^0.17.0-alpha"
+  }
+}
