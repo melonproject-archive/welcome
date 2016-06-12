@@ -1,4 +1,4 @@
-<template name="pages_welcome">
+<template name="welcome">
   <div id="index-banner" class="parallax-container">
     <div class="section no-pad-bot">
       <div class="container">
@@ -8,11 +8,7 @@
           <h5 class="header col s12 light">A port for your digital assets</h5>
         </div>
         <div class="row center">
-          {{#if currentUser}}
-            <a href="{{ pathFor 'dashboard' }}" class="btn-large waves-effect waves-light grey darken-1">{{{i18n 'dapp.app.buttons.dashboard'}}}</a>
-          {{else}}
-            <a href="/sign-in" class="btn-large waves-effect waves-light grey darken-1">{{{i18n 'dapp.app.buttons.signin'}}}</a>
-          {{/if}}
+          <a href="/sign-in" class="btn-large waves-effect waves-light grey darken-1">Get started</a>
         </div>
         <br><br>
 
@@ -76,7 +72,7 @@
 
     <div class="container">
       <div class="section center">
-        <div class="col m6">
+        <div class="col s12 m6">
           {{> email}}
         </div>
       </div>

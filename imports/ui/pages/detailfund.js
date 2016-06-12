@@ -1,1 +1,0 @@
-import './detailfund.html';

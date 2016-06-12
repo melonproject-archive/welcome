@@ -5,11 +5,6 @@ import { ReactiveDict } from 'meteor/reactive-dict';
 import './email.html';
 
 
-Template.pages_welcome.onRendered(function welcomeOnRendered() {
-  this.$('.parallax').parallax();
-});
-
-
 Template.email.onRendered(function emailOnRendered() {
   var template = this;
 
@@ -42,7 +37,7 @@ Template.email.onRendered(function emailOnRendered() {
 });
 
 Template.email.events({
-  'submit form': function( event ) {
+  'submit form': function(event) {
     event.preventDefault();
-  }
+  },
 });
