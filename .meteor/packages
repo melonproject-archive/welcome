@@ -43,7 +43,6 @@ ethereum:tools
 
 # Accounts
 useraccounts:core
-#useraccounts:bootstrap
 useraccounts:materialize
 useraccounts:iron-routing
 accounts-password	    # Additional functionality for accounts-ui
