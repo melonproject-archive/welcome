@@ -1,0 +1,39 @@
+<template name="layout_header">
+
+  <!-- Dropdown Structure -->
+  <ul id="dropdown1" class="dropdown-content">
+    <li><a href="{{ pathFor 'investing' }}">{{{i18n 'dapp.app.buttons.investing'}}}</a></li>
+    <li><a href="{{ pathFor 'wallet' }}">{{{i18n 'dapp.app.buttons.wallet'}}}</a></li>
+    <li><a class="logout">{{{i18n 'dapp.app.buttons.signout'}}}</a></li>
+  </ul>
+
+  <nav>
+    <div class="nav-wrapper">
+      <div class="container">
+        <a href="/" class="brand-logo"><img class="responsive-img" width="48" id="logo" src="1465755186_ETH-alt.svg"/></a>
+        <a href="/" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+        <ul class="right hide-on-med-and-down">
+          {{#if currentUser}}
+            <li><a href="{{ pathFor 'dashboard' }}">{{{i18n 'dapp.app.buttons.dashboard'}}}</a></li>
+            <!-- Dropdown Trigger -->
+            <li><a class="dropdown-button" href="/" data-activates="dropdown1">Signed in as {{username}}<i class="material-icons right">arrow_drop_down</i></a></li>
+          {{else}}
+            <li><a href="{{ pathFor 'investing' }}">{{{i18n 'dapp.app.buttons.investing'}}}</a></li>
+            <li><a href="/sign-in">{{{i18n 'dapp.app.buttons.signin'}}}</a></li>
+          {{/if}}
+        </ul>
+        <ul class="side-nav" id="mobile-demo">
+          {{#if currentUser}}
+            <li><a href="{{ pathFor 'dashboard' }}">{{{i18n 'dapp.app.buttons.dashboard'}}}</a></li>
+            <li><a href="{{ pathFor 'investing' }}">{{{i18n 'dapp.app.buttons.investing'}}}</a></li>
+            <li><a href="{{ pathFor 'wallet' }}">{{{i18n 'dapp.app.buttons.wallet'}}}</a></li>
+            <li><a class="logout">{{{i18n 'dapp.app.buttons.signout'}}}</a></li>
+          {{else}}
+            <li><a href="{{ pathFor 'investing' }}">{{{i18n 'dapp.app.buttons.investing'}}}</a></li>
+            <li><a href="/sign-in">{{{i18n 'dapp.app.buttons.signin'}}}</a></li>
+          {{/if}}
+        </ul>
+      </div>
+    </div>
+  </nav>
+</template>

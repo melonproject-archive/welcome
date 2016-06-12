@@ -1,0 +1,22 @@
+// If you want to override materialize sass variables you can uncomment the following:
+@import "{poetic:materialize-scss}/sass/components/_color.scss";
+$primary-color: color("grey", "darken-3");
+
+// import main scss file
+@import "{poetic:materialize-scss}/sass/materialize.scss";
+
+
+// Individual components
+@import "{}/imports/ui/layouts/header.scss";
+@import "{}/imports/ui/layouts/footer.scss";
+
+// Parallax
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+.parallax-container .section {
+  width: 100%;
+}

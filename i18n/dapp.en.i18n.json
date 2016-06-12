@@ -1,0 +1,151 @@
+{
+  "dapp": {
+    "app": {
+      "title": "PodPort"
+      , "buttons": {
+        "signin": "Sign in"
+        ,"signout": "Sign out"
+        , "setup": "Setup"
+        , "settings": "Settings"
+        , "wallet": "Wallets"
+        , "accounts": "Accounts"
+        , "platform": "Platform"
+        , "investing": "Investing"
+        , "trading": "Trading"
+        , "newfund": "New Fund"
+        , "dashboard": "Dashboard"
+        , "strategy": "Strategy"
+      }
+      , "headers": {
+        "identicon": "Identicon"
+        , "address": "Address"
+        , "status": "Status"
+        , "ownerAddress": "Owner"
+        , "fundAddress": "Fund"
+        , "fundName": "Fund Name"
+        , "fundPx": "Fund px"
+        , "notional": "Notional Investment"
+        , "investment": "Investment"
+        , "intraday": "Intraday %"
+        , "intramonth": "MTD %"
+        , "intrayear": "YTD %"
+        , "balance": "Balance"
+        , "nav": "NAV"
+        , "holdingamount": "Holdings"
+        , "holdingpercentile": "%ile"
+        , "performanceamount": "Performance"
+        , "performancpercentile": "%ile"
+        , "shareprice": "Share Price"
+        , "performance": "Performance"
+        , "account": "Account"
+        , "listening": "Listening"
+        , "peerCount": "Peer Count"
+        , "blockNumber": "Block Numbr"
+        , "defaultBlock": "Default Block"
+        , "mining": "Mining"
+        , "gasPrice": "Gas Price"
+      }
+      , "signin": "Sign in to view your personal overview."
+      , "copyright": "Copyright © PodPort LLC 2016. All Rights Reserved."
+    }
+    , "welcome": {
+      "header": "Welcome"
+      , "description": "Welcome to the Dapp of PodPort. Where the security of the Blockchain meets the efficency of the Internet."
+    }
+    , "agreement": {
+      "header": "Disclaimer"
+      , "description": "Please agree to the following disclaimer before you continue."
+    }
+    , "setup": {
+      "header": "Connect"
+      , "description": "To increase your security you can use your local copy of the blockchain to interact with PodPort."
+    }
+    , "settings": {
+      "header": "Settings"
+      , "description": "Customize your experience."
+    }
+    , "wallet": {
+      "header": "Web Wallet"
+      , "description": "Ethereum light wallets."
+    }
+    , "accounts": {
+      "header": "Accounts"
+      , "description": "Overview of your accounts."
+    }
+    , "dashboard": {
+      "header": "Dashboard"
+      , "description": "Overview of your wallets, investments and fund performances."
+    }
+    , "strategy": {
+      "header": "Strategy"
+      , "description": "Summary of your trading strategies."
+    }
+    , "investing": {
+      "header": "Investment Platform"
+      , "description": "List of PodPort funds."
+    }
+    , "trading": {
+      "header": "Trading Platform"
+      , "description": "A platform to manage your PodPort funds."
+    }
+    , "newfund": {
+      "header": "New Fund"
+      , "description": "Customize and create a new fund."
+    }
+    , "detailfund": {
+      "header": "Trade Blotter"
+      , "description": "A record of each trade that transacted for a given period of time."
+    }
+    , "components": {
+      "balance": {
+        "header": "Balance"
+        , "total": "Total Balance"
+      }
+      , "accounts": {
+        "header": "Accounts"
+        , "description": "Performance of selected Ethereum address."
+      }
+      , "funds": {
+        "header": "Funds"
+        , "description": "Click on one of your funds to place a trade, define a strategy and/or see the trade blotter."
+        , "create": "Create"
+        , "deployed": "The contract was deployed to this address"
+      }
+      , "newfund": {
+        "header": "Deploy a new Fund"
+        , "description": "Create a new contract and deploy it to the Ethereum blockchain."
+        , "create": "Create"
+        , "deploy": "Deploy New Fund"
+        , "deployed": "The contract was deployed to this address"
+        , "placeholder": "Number To Multiply"
+      }
+      , "investments": {
+        "header": "Investments"
+        , "description": "These are your investments in other PodPort funds."
+        , "wellDescription": "Invest ether in a fund."
+        , "create": "See all"
+      }
+      , "wallet": {
+        "header": "Wallets"
+        , "description": "These are your Lightwallets."
+        , "wellDescriptionStart": "Start by creating your own wallet."
+        , "wellDescription": "Click on the lock symbol to unlock your wallet."
+        , "create": "Create"
+        , "import": "Import"
+        , "refresh": "Refresh"
+        , "manage": "Manage"
+        , "deployed": "The contract was deployed to this address"
+      }
+      , "listfunds": {
+        "header": "Investment Platform"
+        , "description": "This is a list of PodPort funds."
+      }
+      , "imagetoken": {
+        "header": "List of Image Token"
+        , "description": "Trade your image token against ether or against other image token."
+        , "wellDescription": "Trade Assets of your fund."
+        , "create": "Trade Assets"
+      }
+    }
+  }
+}

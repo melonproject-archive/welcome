@@ -1,0 +1,42 @@
+<template name="pages_setup">
+	<div class="container">
+		<div class="page-header">
+			<h1>{{i18n 'dapp.setup.header'}}</h1>
+			<p>{{i18n 'dapp.setup.description'}}</p>
+		</div>
+	</div>
+	<div class="container">
+		<div class="row-fuild">
+			<div class="col s6">
+				<h3>Download the Blockchain</h3>
+				<p>If you don't have a local copy of the blockchain yet, you simply can open your console/terminal and type:</p>
+				<br />
+				<p class="well well-info">
+					<code>bash &lt;(curl -L https://install-geth.ethereum.org)  </code>
+				</p>
+				<br />
+				<p>Now you can create a new personal Ethereum account. Open your console/terminal again and type:</p>
+				<br />
+				<p class="well well-info">
+					<code>geth --testnet account new</code>
+				</p>
+				<p>Very well! Now it's time to connect your blockchain to PodPort.</p>
+				<p>For more information on the installation see: <a href="https://github.com/ethereum/go-ethereum/wiki/Building-Ethereum" target="_blank">Ethereum installation instructions</a>.</p>
+				<br />
+			</div>
+			<div class="col s6">
+				<h3>Connect to the Blockchain</h3>
+				<p>To connect the PodPort Platform to your local copy of the blockchain, open your console/terminal again and type the following command: </p>
+				<br />
+				<p class="well well-info">
+					<code>geth --rpc --rpccorsdomain="http://dapp.hedge-suisse.com" --unlock=0 --testnet console</code>
+				</p>
+				<br />
+				<p>In order to use PodPort, your local copy of the blockchain needs to be downloaded completely, i.e. synched with other local copies of other people. You've done well, all that is left now for you to do is to be patient as this synchronisation may take a while.</p>
+				<br />
+				<button type="button" class="btn btn-default" id="setupClient">Connect</button>
+				<br />
+			</div>
+		</div>
+	</div>
+</template>

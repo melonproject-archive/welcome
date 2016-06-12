@@ -1,0 +1,26 @@
+<template name="pages_dashboard">
+  <div class="container">
+    <div class="page-header">
+      {{#if walletCount}}
+        <h1 class="truncate">{{i18n 'dapp.dashboard.header'}}</h1>
+        <p>{{i18n 'dapp.dashboard.description'}}</p>
+      {{else}}
+        <h1>{{i18n 'dapp.welcome.header'}}</h1>
+        <p>{{i18n 'dapp.welcome.description'}}</p>
+      {{/if}}
+    </div>
+    <div class="row-fluid">
+      <div class="col s12">
+        {{> wallet}}
+      </div>
+      {{#if walletCount}}
+        <div class="col s12">
+          {{> performancefund}}
+        </div>
+        <div class="col s12">
+          {{> performanceinvestment}}
+        </div>
+      {{/if}}
+    </div>
+  </div>
+</template>

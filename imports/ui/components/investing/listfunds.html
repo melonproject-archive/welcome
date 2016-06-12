@@ -1,0 +1,24 @@
+<template name="components_listfunds">
+  <div class="card grey lighten-4">
+    <div class="card-content">
+      <div class="card-title">
+        {{i18n 'dapp.components.listfunds.header'}}
+        ({{fundCount}})
+      </div>
+      {{#if fundCount}}
+        <p>{{i18n 'dapp.components.listfunds.description'}}</p>
+        <br/>
+        <div class="table-responsive">
+          <ul>
+            {{#each funds}}
+               {{> fund}}
+            {{/each}}
+          </ul>
+          </div>
+        <br/>
+      {{else}}
+      <p>There are currently no public funds available.</p>
+      {{/if}}
+    </div>
+  </div>
+</template>

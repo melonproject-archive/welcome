@@ -1,13 +1,26 @@
 {
-  "name": "meteor-truffle",
+  "name": "ethereum-app",
   "private": true,
   "scripts": {
-    "start": "meteor run"
+    "lint": "eslint .",
+    "test": "npm run lint"
   },
   "dependencies": {
     "bignumber.js": "^2.3.0",
+    "eth-lightwallet": "^2.3.1",
     "ether-pudding": "^2.0.6",
-    "meteor-node-stubs": "^0.2.3",
-    "web3": "^0.17.0-alpha"
+    "hooked-web3-provider": "^1.0.0",
+    "meteor-node-stubs": "~0.2.0",
+    "metrics-graphics": "^2.8.0",
+    "typed.js": "^1.1.1",
+    "web3": "^0.15.3"
+  },
+  "devDependencies": {
+    "eslint": "^2.9.0",
+    "eslint-config-airbnb": "^9.0.1",
+    "eslint-plugin-import": "^1.7.0",
+    "eslint-plugin-jsx-a11y": "^1.2.0",
+    "eslint-plugin-meteor": "^3.5.2",
+    "eslint-plugin-react": "^5.0.1"
   }
 }

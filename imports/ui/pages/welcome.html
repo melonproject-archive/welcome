@@ -1,0 +1,85 @@
+<template name="pages_welcome">
+  <div id="index-banner" class="parallax-container">
+    <div class="section no-pad-bot">
+      <div class="container">
+        <br><br>
+        <h1 class="header center grey-text">PodPort</h1>
+        <div class="row center">
+          <h5 class="header col s12 light">A port for your digital assets</h5>
+        </div>
+        <div class="row center">
+          {{#if currentUser}}
+            <a href="{{ pathFor 'dashboard' }}" class="btn-large waves-effect waves-light grey darken-1">{{{i18n 'dapp.app.buttons.dashboard'}}}</a>
+          {{else}}
+            <a href="/sign-in" class="btn-large waves-effect waves-light grey darken-1">{{{i18n 'dapp.app.buttons.signin'}}}</a>
+          {{/if}}
+        </div>
+        <br><br>
+
+      </div>
+    </div>
+    <div class="parallax"><img src="harbour-boat-sea-plane-80404.jpeg" alt="Unsplashed background img 1"></div>
+    </div>
+
+    <div class="container">
+      <div class="section">
+
+        <!--   Icon Section   -->
+        <div class="row">
+          <div class="col s12 m4">
+            <div class="icon-block">
+              <h2 class="center"><i class="material-icons">done</i></h2>
+              <h5 class="center">Open</h5>
+
+              <p class="light">The portfolios of the wealth management strategies are auditable by everyone.</p>
+            </div>
+          </div>
+
+          <div class="col s12 m4">
+            <div class="icon-block">
+              <h2 class="center"><i class="material-icons">trending_up</i></h2>
+              <h5 class="center">Low barriers to entry</h5>
+
+              <p class="light">The entry requirements are lower and fewer. Therefore PodPort can create a never-seen-before competitive marketplace for wealth management strategies.</p>
+            </div>
+          </div>
+
+          <div class="col s12 m4">
+            <div class="icon-block">
+              <h2 class="center"><i class="material-icons">done_all</i></h2>
+              <h5 class="center">Secure</h5>
+
+              <p class="light">The security of the assets of these portfolios is close to equal to the security of the underlying Ethereum Platform.</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+
+    <div class="parallax-container valign-wrapper">
+      <div class="section no-pad-bot">
+        <div class="container">
+          <div class="row center">
+            <h5 class="header col s12 light">
+              PodPort is a decentralized application executed on the Ethereum Platform. It provides a platform to
+              create and manage wealth management strategies specializing in digital token of value as well as a platform to invest
+              in those wealth management strategies.
+          </h5>
+          </div>
+        </div>
+      </div>
+      <div class="parallax"><img src="harbour-boat-sea-plane-80404.jpeg" alt="Unsplashed background img 2"></div>
+    </div>
+
+
+    <div class="container">
+      <div class="section center">
+        <div class="col m6">
+          {{> email}}
+        </div>
+      </div>
+    </div>
+
+</template>
