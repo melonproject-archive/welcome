@@ -36,6 +36,7 @@ ethereum:elements@0.7.0
 ethereum:tools@0.5.2
 ethereum:web3@0.15.3
 fastclick@1.0.11
+force-ssl@1.0.11
 fortawesome:fontawesome@4.5.0
 fourseven:scss@3.4.3
 frozeman:animation-helper@0.2.6
