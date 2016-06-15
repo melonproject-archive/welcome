@@ -1,8 +1,25 @@
 <template name="faq">
+
+  <div class="container">
+    <div class="section">
+
+      <div class="row">
+        <div class="col s12 center">
+          <h3><i class="mdi-content-send brown-text"></i></h3>
+          <h3>Frequently Asked Questions</h3>
+          <p class="left-align light">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam scelerisque id nunc nec volutpat. Etiam pellentesque tristique arcu, non consequat magna fermentum ac. Cras ut ultricies eros. Maecenas eros justo, ullamcorper a sapien id, viverra ultrices eros. Morbi sem neque, posuere et pretium eget, bibendum sollicitudin lacus. Aliquam eleifend sollicitudin diam, eu mattis nisl maximus sed. Nulla imperdiet semper molestie. Morbi massa odio, condimentum sed ipsum ac, gravida ultrices erat. Nullam eget dignissim mauris, non tristique erat. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+
   <div class="container">
     <div class="row">
       <div class="col s12 m9 l10">
-        <div id="Business rationale" class="section scrollspy">
+        <div id="BusinessRationale" class="section scrollspy">
+          <h4>Business Rationale</h4>
           <p>
             Introduction to PMP-Services
 
@@ -25,7 +42,8 @@
           </p>
         </div>
 
-        <div id="Getting started" class="section scrollspy">
+        <div id="GettingStarted" class="section scrollspy">
+          <h4>Getting Started</h4>
           <p>
             Introduction to PMP-Services
 
@@ -49,6 +67,7 @@
         </div>
 
         <div id="Returns" class="section scrollspy">
+          <h4>Returns</h4>
           <p>
             Introduction to PMP-Services
 
@@ -72,6 +91,7 @@
         </div>
 
         <div id="Regulation" class="section scrollspy">
+          <h4>Regulation</h4>
           <p>
             Introduction to PMP-Services
 
@@ -95,14 +115,19 @@
         </div>
 
       </div>
+
+      <!-- Table of Contents -->
       <div class="col hide-on-small-only m3 l2">
-        <ul class="section table-of-contents">
-          <li><a href="#Business rationale">Business rationale</a></li>
-          <li><a href="#Getting started">Getting started</a></li>
-          <li><a href="#Returns">Returns</a></li>
-          <li><a href="#Regulation">Regulation</a></li>
-        </ul>
+        <div class="tabs-wrapper">
+          <ul class="section table-of-contents">
+            <li><a href="#BusinessRationale">Business rationale</a></li>
+            <li><a href="#GettingStarted">Getting started</a></li>
+            <li><a href="#Returns">Returns</a></li>
+            <li><a href="#Regulation">Regulation</a></li>
+          </ul>
+        </div>
       </div>
+      
     </div>
   </div>
 </template>

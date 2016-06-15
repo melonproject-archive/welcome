@@ -9,6 +9,7 @@ $primary-color: color("grey", "darken-3");
 // Individual components
 @import "{}/imports/ui/layouts/header.scss";
 @import "{}/imports/ui/layouts/footer.scss";
+@import "{}/imports/ui/pages/faq.scss";
 
 // Parallax
 .parallax-container {

@@ -3,7 +3,8 @@ import { Router } from 'meteor/iron:router';
 // Import to load these templates
 import '../../ui/layouts/main.js';
 import '../../ui/pages/welcome.js';
-import '../../ui/pages/timeline.js';
+import '../../ui/pages/about.js';
+import '../../ui/pages/team.js';
 import '../../ui/pages/faq.js';
 
 // Router defaults
@@ -32,11 +33,18 @@ Router.route('/', {
   name: 'home'
 });
 
-// Route for timeline
-Router.route('/timeline', {
-  template: 'timeline',
-  name: 'timeline'
+// Route for about
+Router.route('/about', {
+  template: 'about',
+  name: 'about'
 });
+
+// Route for team
+Router.route('/team', {
+  template: 'team',
+  name: 'team'
+});
+
 
 // Route for faq
 Router.route('/faq', {
