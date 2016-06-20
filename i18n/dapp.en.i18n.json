@@ -1,7 +1,7 @@
 {
   "dapp": {
     "app": {
-      "title": "MelonPort"
+      "title": "melonport"
       , "buttons": {
         "signin": "Sign in"
         ,"signout": "Sign out"
@@ -46,11 +46,11 @@
         , "gasPrice": "Gas Price"
       }
       , "signin": "Sign in to view your personal overview."
-      , "copyright": "Copyright © MelonPort LLC 2016. All Rights Reserved."
+      , "copyright": "Copyright © melonport LLC 2016. All Rights Reserved."
     }
     , "welcome": {
       "header": "Welcome"
-      , "description": "Welcome to the Dapp of MelonPort. Where the security of the Blockchain meets the efficency of the Internet."
+      , "description": "Welcome to the Dapp of melonport. Where the security of the Blockchain meets the efficency of the Internet."
     }
     , "agreement": {
       "header": "Disclaimer"
@@ -58,7 +58,7 @@
     }
     , "setup": {
       "header": "Connect"
-      , "description": "To increase your security you can use your local copy of the blockchain to interact with MelonPort."
+      , "description": "To increase your security you can use your local copy of the blockchain to interact with melonport."
     }
     , "settings": {
       "header": "Settings"
@@ -82,11 +82,11 @@
     }
     , "investing": {
       "header": "Investment Platform"
-      , "description": "List of MelonPort funds."
+      , "description": "List of melonport funds."
     }
     , "trading": {
       "header": "Trading Platform"
-      , "description": "A platform to manage your MelonPort funds."
+      , "description": "A platform to manage your melonport funds."
     }
     , "newfund": {
       "header": "New Fund"
@@ -121,7 +121,7 @@
       }
       , "investments": {
         "header": "Investments"
-        , "description": "These are your investments in other MelonPort funds."
+        , "description": "These are your investments in other melonport funds."
         , "wellDescription": "Invest ether in a fund."
         , "create": "See all"
       }
@@ -138,7 +138,7 @@
       }
       , "listfunds": {
         "header": "Investment Platform"
-        , "description": "This is a list of MelonPort funds."
+        , "description": "This is a list of melonport funds."
       }
       , "imagetoken": {
         "header": "List of Image Token"
