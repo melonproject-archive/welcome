@@ -2,3 +2,4 @@ node_modules/
 settings-production.json
 fullchain.pem
 privkey.pem
+mup.json
