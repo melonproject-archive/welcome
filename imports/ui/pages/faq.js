@@ -8,4 +8,7 @@ Template.faq.onRendered(function faqOnRendered() {
     top: this.$('.tabs-wrapper').offset().top,
   });
   this.$('.scrollspy').scrollSpy();
+  this.$('.collapsible').collapsible({
+    accordion: false,
+  });
 });
