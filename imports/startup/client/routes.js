@@ -1,53 +1,59 @@
-import { Router } from 'meteor/iron:router';
+import { FlowRouter } from 'meteor/kadira:flow-router';
+import { BlazeLayout } from 'meteor/kadira:blaze-layout';
 
 // Import to load these templates
 import '../../ui/layouts/main.js';
+import '../../ui/layouts/header.js';
+import '../../ui/layouts/footer.js';
 import '../../ui/pages/welcome.js';
 import '../../ui/pages/about.js';
 import '../../ui/pages/team.js';
 import '../../ui/pages/faq.js';
 
-// Router defaults
-Router.configure({
-  layoutTemplate: 'layout_main',
-  notFoundTemplate: 'layout_notFound',
-  yieldRegions: {
-    'layout_header': {to: 'header'}
-    , 'layout_footer': {to: 'footer'}
-  }
-});
-
-//Routes for accounts template
-AccountsTemplates.configureRoute('changePwd');
-AccountsTemplates.configureRoute('enrollAccount');
-AccountsTemplates.configureRoute('forgotPwd');
-AccountsTemplates.configureRoute('resetPwd');
-AccountsTemplates.configureRoute('signIn');
-AccountsTemplates.configureRoute('signUp');
-AccountsTemplates.configureRoute('verifyEmail');
-
-
 // Default route
-Router.route('/', {
-  template: 'welcome',
-  name: 'home'
+FlowRouter.route('/', {
+  name: 'welcome',
+  action() {
+    BlazeLayout.render('layout_main', {
+      nav: 'layout_header',
+      main: 'welcome',
+      footer: 'layout_footer',
+    });
+  },
 });
 
 // Route for about
-Router.route('/about', {
-  template: 'about',
-  name: 'about'
+FlowRouter.route('/about', {
+  name: 'about',
+  action() {
+    BlazeLayout.render('layout_main', {
+      nav: 'layout_header',
+      main: 'about',
+      footer: 'layout_footer',
+    });
+  },
 });
 
 // Route for team
-Router.route('/team', {
-  template: 'team',
-  name: 'team'
+FlowRouter.route('/team', {
+  name: 'team',
+  action() {
+    BlazeLayout.render('layout_main', {
+      nav: 'layout_header',
+      main: 'team',
+      footer: 'layout_footer',
+    });
+  },
 });
 
-
 // Route for faq
-Router.route('/faq', {
-  template: 'faq',
-  name: 'faq'
+FlowRouter.route('/faq', {
+  name: 'faq',
+  action() {
+    BlazeLayout.render('layout_main', {
+      nav: 'layout_header',
+      main: 'faq',
+      footer: 'layout_footer',
+    });
+  },
 });

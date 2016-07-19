@@ -21,8 +21,8 @@ ecmascript              # Enable ECMAScript2015+ syntax in app code
 
 
 # Added packages (recommended)
-reactive-dict		    # For temporary reactive state on the client
-practicalmeteor:mocha	# Mocha testing environment
+reactive-dict		        # For temporary reactive state on the client
+practicalmeteor:mocha	  # Mocha testing environment
 
 
 # Desgin
@@ -38,14 +38,13 @@ ethereum:tools
 
 # Accounts
 useraccounts:core
-useraccounts:materialize
-useraccounts:iron-routing
-accounts-password	    # Additional functionality for accounts-ui
+accounts-password	      # Additional functionality for accounts-ui
 
 
 # User Experience
 tap:i18n                # Internationalization package
-iron:router             # Routing of pages
+kadira:flow-router      # Routing of pages
+kadira:blaze-layout     # Rendering
 http                    # Interact through HTTP
 
 
