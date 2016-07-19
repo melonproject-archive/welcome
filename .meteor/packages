@@ -50,11 +50,9 @@ http                    # Interact through HTTP
 
 # Email subscription
 miro:mailchimp
-themeteorchef:jquery-validation
 check
 underscore
 accounts-base
-audit-argument-checks
 
 
 # Testing and Developming
