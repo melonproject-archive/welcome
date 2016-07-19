@@ -48,6 +48,10 @@ kadira:blaze-layout     # Rendering
 http                    # Interact through HTTP
 
 
+# Deployment and Monitoring
+okgrow:analytics        # Google analytics for flow-router
+
+
 # Email subscription
 miro:mailchimp
 check

@@ -73,6 +73,7 @@ mongo-id@1.0.5
 npm-bcrypt@0.8.6_1
 npm-mongo@1.4.44
 observe-sequence@1.0.12
+okgrow:analytics@1.0.9
 ordered-dict@1.0.8
 poetic:materialize-scss@1.97.6_1
 practicalmeteor:chai@2.1.0_1
