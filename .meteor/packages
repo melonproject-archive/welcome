@@ -57,6 +57,7 @@ miro:mailchimp
 check
 underscore
 accounts-base
+themeteorchef:jquery-validation # For validation
 
 
 # Testing and Developming

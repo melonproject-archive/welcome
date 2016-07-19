@@ -5,6 +5,7 @@ import { MailChimp } from 'meteor/miro:mailchimp';
 
 import './welcome.html';
 
+
 Template.welcome.onRendered(function welcomeOnRendered() {
   this.$('.parallax').parallax();
 

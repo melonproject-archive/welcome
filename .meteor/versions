@@ -103,6 +103,7 @@ standard-minifiers@1.0.6
 tap:i18n@1.8.2
 templating@1.1.11
 templating-tools@1.0.4
+themeteorchef:jquery-validation@1.14.0
 tmeasday:test-reporter-helpers@0.2.1
 tracker@1.0.14
 ui@1.0.11
