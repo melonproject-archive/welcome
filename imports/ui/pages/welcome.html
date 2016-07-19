@@ -1,22 +1,23 @@
 <template name="welcome">
+  <!-- Main text -->
   <div id="index-banner" class="parallax-container">
     <div class="section no-pad-bot">
       <div class="container">
         <br><br>
         <h1 class="header center grey-text">melonport</h1>
         <div class="row center">
-          <h5 class="header col s12 light">The journey to holding and managing your digital assets on a decentralized blockchain</h5>
+          <h5 class="header col s12 light">The journey to holding and managing your digital assets on a decentralised blockchain</h5>
         </div>
         <div class="row center">
           <a href="http://chain.melonport.com/" class="btn-large waves-effect waves-light grey darken-1">Get started</a>
         </div>
         <br><br>
-
       </div>
     </div>
     <div class="parallax"><img src="roadahead2.jpeg" alt="Unsplashed background img 1"></div>
   </div>
 
+  <!-- Youtube video -->
   <div class="container">
     <div class="section">
       <div class="row">
@@ -29,13 +30,14 @@
     </div>
   </div>
 
+  <!-- Subtext -->
   <div class="parallax-container valign-wrapper">
     <div class="section no-pad-bot">
       <div class="container">
         <div class="row center">
           <h5 class="header col s12 light">
-            <p>Melonport is way to access the melon protocol. The melon protocol is a network protocol for digital asset management executed on the Ethereum platform.
-              It provides a self-maintained protocol to create, manage and invest in Ether-denominated portfolio management strategies specializing in digital assets.
+            <p>
+              Melonport leverages of the Melon Protocol to provide a decentralised user-friendly solution to holding and managing Ether-denominated digital assets securely on the Ethereum blockchain. Melonport also provides you with an easy way to monitor and invest in other Ether-denominated portfolios.
             </p>
         </h5>
         </div>
@@ -44,14 +46,23 @@
     <div class="parallax"><img src="roadahead2.jpeg" alt="Unsplashed background img 2"></div>
   </div>
 
+  <!-- Email subscription -->
   <div class="container">
     <div class="section center">
       <div class="row">
         <div class="col s6 offset-s3">
-          {{> email}}
+          <h4 class="center grey-text">Coming soon!</h4>
+          <p class="center light">Subscribe to our newsletter.</p>
+          <form id="mailing-list" class="form-inline">
+            <div class="form-group center">
+              <label hidden for="emailAddress">Email</label>
+              <input type="email" name="emailAddress" class="form-control" id="emailAddress" placeholder="email address">
+            </div>
+            <button type="submit" class="btn-large waves-effect waves-light grey darken-1">Subscribe</button>
+            <label class="error-message"></label>
+          </form>
         </div>
       </div>
     </div>
   </div>
-
 </template>

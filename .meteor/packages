@@ -28,17 +28,12 @@ practicalmeteor:mocha	# Mocha testing environment
 # Desgin
 fourseven:scss
 poetic:materialize-scss
-peppelg:bootstrap-3-modal
-juliancwirko:s-alert    # Notifications
 fortawesome:fontawesome # Icons and fonts
 
 
 # Ethereum specific packages
 ethereum:elements
 ethereum:tools
-#ethereum:dapp-styles
-#ethereum:blocks
-#ethereum:accounts
 
 
 # Accounts
@@ -56,6 +51,11 @@ http                    # Interact through HTTP
 
 # Email subscription
 miro:mailchimp
+themeteorchef:jquery-validation
+check
+underscore
+accounts-base
+audit-argument-checks
 
 
 # Testing and Developming
