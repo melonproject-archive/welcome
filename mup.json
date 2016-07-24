@@ -23,7 +23,7 @@
   // Location of app (local directory). This can reference '~' as the users home directory.
   // i.e., "app": "~/Meteor/my-app",
   // This is the same as the line below.
-  "app": "/home/reto/Development/welcome-app",
+  "app": "/home/reto/Meteor/welcome-app",
 
   // Configure environment
   // ROOT_URL must be set to your correct domain (https or http)
