@@ -16,7 +16,7 @@
    width="949.42908"
    height="296.76251"
    viewBox="0 0 949.42907 296.76251"
-   sodipodi:docname="melonwebsite.svg"><metadata
+   sodipodi:docname="melonwebsite (copy).svg"><metadata
      id="metadata8"><rdf:RDF><cc:Work
          rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" /><dc:title /></cc:Work></rdf:RDF></metadata><defs
@@ -51,8 +51,8 @@
      fit-margin-left="0"
      fit-margin-right="0"
      fit-margin-bottom="0"
-     inkscape:zoom="0.74210936"
-     inkscape:cx="700.4997"
+     inkscape:zoom="1"
+     inkscape:cx="372.38094"
      inkscape:cy="208.9978"
      inkscape:window-x="65"
      inkscape:window-y="24"
@@ -67,7 +67,7 @@
        transform="scale(0.1,0.1)"><g
          id="g3384"
          transform="translate(-43.120347,-48.510418)"><g
-           transform="matrix(1.0973071,0,0,1.0973071,3424.0178,1999.5469)"
+           transform="matrix(1.0973071,0,0,1.0973071,3356.8394,1999.5469)"
            id="g3436"><path
              d="m 0,657.66 62.5469,0 0,-75.949 c 30.3828,60.758 97.3981,89.348 151.9061,89.348 50.039,0 97.399,-16.09 131.352,-54.508 12.511,-12.512 28.593,-44.672 31.273,-50.039 7.152,13.398 16.981,32.168 34.852,50.937 31.273,33.063 78.633,53.61 132.246,53.61 49.144,0 96.504,-14.289 129.562,-48.258 42,-41.992 54.508,-93.821 54.508,-178.711 l 0,-267.168 -66.121,0 0,264.5 c 0,50.93 -8.043,96.5 -35.742,127.769 -19.66,25.02 -50.039,40.207 -95.613,40.207 -41.997,0 -83.098,-16.968 -105.438,-50.027 C 401.207,525.41 396.738,498.602 396.738,444.09 l 0,-267.168 -66.125,0 0,267.168 c 1.789,53.621 -6.254,84.89 -25.015,114.379 -22.34,31.281 -56.297,50.043 -105.442,50.929 C 155.48,611.191 117.949,588.859 98.2891,560.262 77.7383,532.559 66.1211,495.93 66.1211,444.988 l 0,-268.066 -66.1211,0 0,480.738"
              style="opacity:0.97000002;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -105,7 +105,7 @@
              style="opacity:0.97000002;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
              id="path30"
              inkscape:connector-curvature="0" /></g><g
-           transform="matrix(0.56954049,0,0,0.56954049,1129.29,1086.3009)"
+           transform="matrix(0.56954049,0,0,0.56954049,814.22778,1086.3009)"
            id="g3447"><path
              d="m 2389.66,3597.94 c -659.24,0 -1193.67,-531.46 -1193.67,-1187.05 0,-655.59 534.43,-1187.05 1193.67,-1187.05 659.25,0 1193.68,531.46 1193.68,1187.05 0,655.59 -534.43,1187.05 -1193.68,1187.05"
              style="fill:#398b38;fill-opacity:1;fill-rule:evenodd;stroke:none"
