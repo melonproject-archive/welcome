@@ -19,38 +19,20 @@ standard-minifier-js    # JS minifier run for production mode
 es5-shim                # ECMAScript 5 compatibility for older browsers.
 ecmascript              # Enable ECMAScript2015+ syntax in app code
 
-
-# Added packages (recommended)
-reactive-dict		        # For temporary reactive state on the client
-practicalmeteor:mocha	  # Mocha testing environment
-
-
 # Desgin
 fourseven:scss
 poetic:materialize-scss
 fortawesome:fontawesome # Icons and fonts
 
-
-# Ethereum specific packages
-ethereum:elements
-ethereum:tools
-
-
-# Accounts
-useraccounts:core
-accounts-password	      # Additional functionality for accounts-ui
-
-
 # User Experience
-tap:i18n                # Internationalization package
 kadira:flow-router      # Routing of pages
 kadira:blaze-layout     # Rendering
-http                    # Interact through HTTP
-
 
 # Deployment and Monitoring
 okgrow:analytics        # Google analytics for flow-router
 
+# Internationalisation
+tap:i18n
 
 # Email subscription
 miro:mailchimp
@@ -58,8 +40,3 @@ check
 underscore
 accounts-base
 themeteorchef:jquery-validation # For validation
-
-
-# Testing and Developming
-#autopublish             # Publish all data to the clients (for prototyping)
-#insecure # Allow all DB writes from clients (for prototyping)
