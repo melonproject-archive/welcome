@@ -2,19 +2,27 @@
   <nav>
     <div class="nav-wrapper">
       <div class="container">
-        <a href="/" class="brand-logo"><img height="64" id="logo" src="melonwebsite.svg"/></a>
+        <a href="/" class="brand-logo hide-on-small-and-down"><img height="64" id="logo" src="melonwebsite.svg"/></a>
         <a href="/" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+
+        <ul class="right">
+          <li>
+            <form id="mailing-list" class="form-inline">
+              <label hidden for="emailAddress">Email</label>
+              <input type="email" name="emailAddress" class="form-control white-text" id="emailAddress" placeholder="Subscribe to our Newsletter">
+            </form>
+          </li>
+        </ul>
         <ul class="right hide-on-med-and-down">
           <li><a href="/about/">About</a></li>
           <li><a href="/team/">Team</a></li>
           <li><a href="/faq/">FAQ</a></li>
-          <li><a href="https://medium.com/@melonproject" target="_blank">Blog</a></li>
         </ul>
         <ul class="side-nav grey darken-3" id="mobile-demo">
+          <li><a class="waves-effect waves-grey white-text" href="/">Home</a></li>
           <li><a class="waves-effect waves-grey white-text" href="/about/">About</a></li>
           <li><a class="waves-effect waves-grey white-text" href="/team/">Team</a></li>
           <li><a class="waves-effect waves-grey white-text" href="/faq/">FAQ</a></li>
-          <li><a class="waves-effect waves-grey white-text" href="https://medium.com/@melonproject" target="_blank">Blog</a></li>
         </ul>
       </div>
     </div>
