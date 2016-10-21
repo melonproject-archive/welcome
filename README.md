@@ -1,4 +1,4 @@
-# contribution
+# welcome
 
 Application of the melon website. 
 
