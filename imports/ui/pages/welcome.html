@@ -1,20 +1,20 @@
 <template name="welcome">
 
   <!-- Index-banner -->
-  <div class="section grey darken-3 white-text" id="index-banner">
+  <div class="section blue-grey darken-2 white-text" id="index-banner">
     <div class="container">
-      <h3 class="header center grey-text">Bringing It All Together.</h3>
+      <h3 class="header center grey-text">Bringing it all together</h3>
       <div class="row center">
-        <h5 class="header col s12 light">Your portal to decentralized digital asset management</h5>
+        <h5 class="header col s12 light">Your portal to decentralised digital asset management</h5>
       </div>
       <div class="row center">
-        <a href="https://github.com/melonproject/whitepaper/blob/master/melonprotocol.pdf" id="download-button" class="btn-large waves-effect waves-light grey darken-2">Read our Whitepaper</a>
+        <a href="#" onclick="window.open('melonprotocol.pdf', '_blank', 'fullscreen=yes'); return false;" id="download-button" class="btn-large waves-effect waves-light grey darken-2">Read our Whitepaper</a>
       </div>
     </div>
   </div>
 
   <!-- Youtube video -->
-  <div class="parallax-container valign-wrapper grey lighten-3">
+  <div class="parallax-container valign-wrapper">
     <div class="section no-pad-bot">
       <div class="container">
         <div class="row">
@@ -31,7 +31,7 @@
         </div>
       </div>
     </div>
-    <div class="parallax"><img src="" alt="Unsplashed background img 1"></div>
+  <div class="parallax"><img src="" alt="Unsplashed background img 1"></div>
   </div>
 
   <!--   Icon Container   -->
@@ -72,54 +72,58 @@
         <h4 class="center grey-text">Our Team</h4>
         <div class="col s12 m4">
           <div class="card">
-            <div class="card-image">
-              <img src="reto.jpeg">
-              <span class="card-title grey-text darken-1">Reto Trinkler</span>
+            <div class="card-image waves-effect waves-block waves-light">
+              <img class="activator" src="reto.jpeg">
+              <span class="card-title grey-text darken-1">Co-Founder</span>
             </div>
             <div class="card-content">
-              <b>Co-Founder</b>
-              <p>Blockchain developer with background in math from ETH Zurich and law from Universität Zürich. He started developing Ethereum smart contracts immediately after their launch in 2015. He worked as a smart-contract developer at Brainbot Technologies (which is building the high-speed Raiden Network) and is host of Zurich's Blockchain Hacklab. Before this Reto developed a profitable trading algorithm for sport betting exchanges in C++.</p>
+              <span class="card-title activator grey-text text-darken-4">Reto Trinkler<i class="material-icons right">more_vert</i></span>
+              <p><a href="https://twitter.com/reto_trinkler">Twitter</a>  <a href="https://github.com/retotrinkler">Github</a>  <a href="mailto:rt@melonport.com" target="_top">Email</a></p>
             </div>
-            <div class="card-action">
-              <a href="https://twitter.com/reto_trinkler">Twitter</a>
-              <a href="https://github.com/retotrinkler">Github</a>
-              <a href="mailto:rt@melonport.com" target="_top">Email</a>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4">Reto Trinkler<i class="material-icons right">close</i></span>
+              <p>Blockchain developer with background in mathematics from ETH Zurich. He started developing Ethereum smart contracts immediately after their launch in 2015. He worked as a smart-contract developer at Brainbot Technologies (which is building the high-speed Raiden Network) and is host of Zurich's Blockchain Hacklab. Before this Reto developed a profitable trading algorithm for sport betting exchanges in C++.</p>
             </div>
           </div>
         </div>
         <div class="col s12 m4">
           <div class="card">
-            <div class="card-image">
-              <img src="mona.jpeg">
-              <span class="card-title grey-text darken-1">Mona El Isa</span>
+            <div class="card-image waves-effect waves-block waves-light">
+              <img class="activator" src="mona.jpeg">
+              <span class="card-title grey-text darken-1">Co-Founder</span>
             </div>
             <div class="card-content">
-              <b>Co-Founder</b>
+              <span class="card-title activator grey-text text-darken-4">Mona El Isa<i class="material-icons right">more_vert</i></span>
+              <p>
+                <a href="https://twitter.com/perham83">Twitter</a>
+                <a href="https://github.com/perhamgirl">Github</a>
+                <a href="https://blockchainwizz.com/">Blog</a>
+                <a href="mailto:me@melonport.com" target="_top">Email</a>
+              </p>
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4">Mona El Isa<i class="material-icons right">close</i></span>
               <p>Former star-trader at Goldman Sachs, promoted to Vice President by the age of 26 and made the “top 30 under 30” list in Trader Magazine in 2008 and Forbes Magazine in 2011 after profitably trading the 2008 and 2011 crashes. Moved to Geneva-based macro fund Jabre Capital in 2011, before deciding in 2014 that the future of finance lay in blockchain technology. She studied Economics & Statistics at the University College London.</p>
             </div>
-            <div class="card-action">
-              <a href="https://twitter.com/perham83">Twitter</a>
-              <a href="https://github.com/perhamgirl">Github</a>
-              <a href="https://blockchainwizz.com/">Blog</a>
-              <a href="mailto:me@melonport.com" target="_top">Email</a>
-            </div>
           </div>
         </div>
         <div class="col s12 m4">
           <div class="card">
-            <div class="card-image">
-              <img src="gavin.jpeg">
-              <span class="card-title grey-text darken-1">Gavin Wood</span>
+            <div class="card-image waves-effect waves-block waves-light">
+              <img class="activator" src="gavin.jpeg">
+              <span class="card-title grey-text darken-1">Advisor</span>
             </div>
             <div class="card-content">
-              <b>Advisor</b>
-              <p>Co-founder and CTO of Ethereum and now head of EthCore, one of the top providers of blockchain-powered enterprise solutions and developer of the Parity wallet. He coded Ethereum's first functional implementation, wrote the Yellow Paper ( first formal specification of a blockchain protocol) and invented the Solidity language. Studied software engineering at University of York. Specializes in C++ and holds lifelong interest in game theory.</p>
+              <span class="card-title activator grey-text text-darken-4">Gavin Wood<i class="material-icons right">more_vert</i></span>
+              <p>
+                <a href="https://twitter.com/gavofyork">Twitter</a>
+                <a href="https://github.com/gavofyork">Github</a>
+                <a href="https://medium.com/@gavofyork">Blog</a>
+              </p>
             </div>
-            <div class="card-action">
-              <a href="https://twitter.com/perham83">Twitter</a>
-              <a href="https://github.com/perhamgirl">Github</a>
-              <a href="https://blockchainwizz.com/">Blog</a>
-              <a href="mailto:me@melonport.com" target="_top">Email</a>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4">Gavin Wood<i class="material-icons right">close</i></span>
+              <p>Co-founder and CTO of Ethereum and now head of EthCore, one of the top providers of blockchain-powered enterprise solutions and developer of the Parity wallet. He coded Ethereum's first functional implementation, wrote the Yellow Paper ( first formal specification of a blockchain protocol) and invented the Solidity language. Studied software engineering at University of York. Specializes in C++ and holds lifelong interest in game theory.</p>
             </div>
           </div>
         </div>

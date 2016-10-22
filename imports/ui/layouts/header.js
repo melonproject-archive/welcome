@@ -7,6 +7,28 @@ import { MailChimp } from 'meteor/miro:mailchimp';
 
 import './header.html';
 
+// Methods used
+handleSubscriber = function(subscriber) {
+  Meteor.call( 'handleSubscriber', subscriber, function( error, response ) {
+    if (error) {
+      Materialize.toast(error.reason, 8000, 'orange') // 4000 is the duration of the toast
+    } else {
+      if ( response.complete || response.euid ) {
+        var subscribeMessage   = 'Please confirm your email to complete your subscription',
+            unsubscribeMessage = subscriber.email + ' successfully unsubscribed!',
+            message            = subscriber.action === 'subscribe' ? subscribeMessage : unsubscribeMessage;
+
+        Materialize.toast(message, 8000, 'green') // 4000 is the duration of the toast
+
+        if (template) {
+          template.getSubscribers();
+        }
+      } else {
+        Materialize.toast(response.message, 8000, 'orange') // 4000 is the duration of the toast
+      }
+    }
+  });
+};
 
 Template.layout_header.onRendered(function headerOnRendered() {
   this.$('.button-collapse').sideNav({});
