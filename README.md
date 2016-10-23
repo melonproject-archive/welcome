@@ -2,6 +2,8 @@
 
 Application of the melon website. 
 
+[![Gitter](https://badges.gitter.im/melonproject/general.svg)](https://gitter.im/melonproject/general?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 ## Installation
 
 1. Clone this repository
