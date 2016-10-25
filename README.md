@@ -23,5 +23,5 @@ Application of the melon website.
 After installation is complete, go to the above `welcome` directory, open a terminal and launch meteor:
 
   ```
-  meteor
+  meteor --settings=settings-development.json
   ```
