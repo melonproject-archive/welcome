@@ -1,4 +1,4 @@
-# welcome
+# website
 
 Application of the melon website. 
 
@@ -8,7 +8,7 @@ Application of the melon website.
 
 1. Clone this repository
     ```
-    git clone git@github.com:melonproject/welcome.git
+    git clone git@github.com:melonproject/website.git
     cd welcome
 
     ```
@@ -20,7 +20,7 @@ Application of the melon website.
 
 ## Getting started
 
-After installation is complete, go to the above `welcome` directory, open a terminal and launch meteor:
+After installation is complete, go to the above `website` directory, open a terminal and launch meteor:
 
   ```
   meteor --settings=settings-development.json
