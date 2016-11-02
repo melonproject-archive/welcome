@@ -1,0 +1,23 @@
+// Site
+.site {
+}
+
+.site-content {
+  flex: 1 0 auto;
+}
+
+// No margin
+.page-footer {
+  margin: 0;
+}
+
+// Parallax
+.parallax-container {
+  min-height: 400px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+.parallax-container .section {
+  width: 100%;
+}
