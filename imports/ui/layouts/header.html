@@ -1,27 +1,27 @@
 <template name="layout_header">
-  <nav>
-    <div class="nav-wrapper">
-      <div class="container">
-        <a href="/" class="brand-logo hide-on-med-and-down"><img height="64" id="logo" src="melonwebsite.svg"/></a>
-        <a href="/" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
-        <ul class="right">
-          <li><a class="error-message red-text text-lighten-3"></a></li>
-          <li>
-            <form id="mailing-list" class="form-inline">
-              <label hidden for="emailAddress">Email</label>
-              <input type="email" name="emailAddress" class="form-control white-text" id="emailAddress" placeholder="Subscribe to our newsletter">
-            </form>
-          </li>
-        </ul>
-        <ul class="right hide-on-med-and-down">
-        </ul>
-        <ul class="side-nav indigo darken-3" id="nav-mobile">
-          <li><a class="brand-logo center"><img height="64" id="logo" src="melonwebsite.svg"/></a></li>
-          <li><a class="waves-effect waves-indigo white-text" href="/"></a></li>
-          <li><a class="waves-effect waves-indigo white-text" href="#" onclick="window.open('melonprotocol.pdf', '_blank', 'fullscreen=yes'); return false;">Whitepaper</a></li>
-          <li><a class="waves-effect waves-indigo white-text" href="http://chat.melonport.com">Chat</a></li>
-        </ul>
-      </div>
-    </div>
-  </nav>
+  <nav class="navbar navbar-default nav-header">
+		<div class="container">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#default-header" aria-expanded="false">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="#"><img src="dist/img/logo.png"></a>
+			</div>
+
+			<div class="collapse navbar-collapse" id="default-header">
+				<ul class="nav navbar-nav navbar-right">
+					<li class="dropdown">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">En <span class="caret"></span></a>
+						<ul class="dropdown-menu">
+							<li><a href="#">English</a></li>
+						</ul>
+					</li>
+					<li class="btn-request"><a href="https://contribution.melonport.com" class="btn btn-outline-white">Contribute</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
 </template>

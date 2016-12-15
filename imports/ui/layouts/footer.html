@@ -1,39 +1,31 @@
 <template name="layout_footer">
-  <footer class="page-footer">
-    <div class="container">
-      <div class="row">
-        <div class="col m4 s12">
-          <h5 class="grey-text text-lighten-4">Connect with us</h5>
-          <ul>
-            <li><a class="grey-text text-lighten-5" href="https://reddit.com/r/melonproject" target="_blank">Reddit</a></li>
-            <li><a class="grey-text text-lighten-5" href="https://twitter.com/melonport" target="_blank">Twitter</a></li>
-            <li><a class="grey-text text-lighten-5" href="https://www.linkedin.com/company/melonport-ltd" target="_blank">LinkedIn</a></li>
-            <li><a class="grey-text text-lighten-5" href="https://www.github.com/melonproject" target="_blank">Github</a></li>
-          </ul>
-        </div>
-        <div class="col m4 s12">
-          <h5 class="grey-text text-lighten-4">Join us</h5>
-          <ul>
-            <li><a class="grey-text text-lighten-5" href="https://github.com/melonproject" target="_blank">Show us your skills on Github</a></li>
-            <li><a class="grey-text text-lighten-5" href="https://gitter.im/melonproject/general" target="_blank">Join the conversation on Gitter</a></li>
-            <li><a class="grey-text text-lighten-5" href="mailto:team@melonport.com?subject=Contact: " target="_top">Send us an Email</a></li>
-          </ul>
-        </div>
-        <div class="col m4 s12">
-          <h5 class="grey-text text-lighten-4">Subscribe</h5>
-          <label class="error-message red-text text-lighten-3"></label>
-          <form id="mailing-list" class="form-inline">
-            <label hidden for="emailAddress">Email</label>
-            <input type="email" name="emailAddress" class="form-control white-text" id="emailAddress" placeholder="email address">
-            <button type="submit" class="btn-large waves-effect waves-light indigo darken-2">Subscribe</button>
-          </form>
-        </div>
-      </div>
-    </div>
-    <div class="footer-copyright">
-      <div class="container">
-        {{{i18n 'dapp.app.copyright'}}}
-      </div>
-    </div>
-  </footer>
+  <!-- footer section -->
+	<footer class="mp-footer">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-3 footer-logo">
+					<img src="dist/img/logo.png">
+					<p>{{{i18n 'dapp.app.copyright'}}}</p>
+				</div>
+				<div class="col-md-6 footer-link">
+					<ul>
+						<li><a href="#">Learn</a></li>
+						<li><a href="#">About</a></li>
+						<li><a href="#">Contribute</a></li>
+						<li><a href="#">Prototype</a></li>
+					</ul>
+				</div>
+				<div class="col-md-3 footer-icon">
+					<ul>
+						<li><a href="https://reddit.com/r/melonproject" target="_blank"><i class="fi flaticon-symbols"></i></a></li>
+						<li><a href="https://www.github.com/melonproject" target="_blank"><i class="fi flaticon-circle"></i></a></li>
+						<li><a href="https://twitter.com/melonport" target="_blank"><i class="fi flaticon-social"></i></a></li>
+						<li><a href="https://www.linkedin.com/company/melonport-ltd" target="_blank"><i class="fi flaticon-social-media"></i></a></li>
+						<li><a href="http://chat.melonport.com/" target="_blank"><i class="fi flaticon-symbols-1"></i></a></li>
+						<li><a href="mailto:team@melonport.com?subject=Contact: " target="_top"><i class="fi flaticon-interface-1"></i></a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</footer>
 </template>

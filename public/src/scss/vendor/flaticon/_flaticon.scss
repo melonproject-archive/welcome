@@ -1,0 +1,63 @@
+/*
+Flaticon icon font: Flaticon
+Creation date: 13/12/2016 23:24
+*/
+
+@font-face {
+  font-family: "Flaticon";
+  src: url("../fonts/flaticons/Flaticon.eot");
+  src: url("../fonts/flaticons/Flaticon.eot?#iefix") format("embedded-opentype"),
+  url("../fonts/flaticons/Flaticon.woff") format("woff"),
+  url("../fonts/flaticons/Flaticon.ttf") format("truetype"),
+  url("../fonts/flaticons/Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("../fonts/flaticonsFlaticon.svg#Flaticon") format("svg");
+  }
+}
+
+.fi:before{
+  display: inline-block;
+  font-family: "Flaticon";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  line-height: 1;
+  text-decoration: inherit;
+  text-rendering: optimizeLegibility;
+  text-transform: none;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+}
+
+.flaticon-arrows:before { content: "\f100"; }
+.flaticon-circle:before { content: "\f101"; }
+.flaticon-cogwheel:before { content: "\f102"; }
+.flaticon-computer:before { content: "\f103"; }
+.flaticon-interface:before { content: "\f104"; }
+.flaticon-interface-1:before { content: "\f105"; }
+.flaticon-multimedia:before { content: "\f106"; }
+.flaticon-social:before { content: "\f107"; }
+.flaticon-social-media:before { content: "\f108"; }
+.flaticon-symbols:before { content: "\f109"; }
+.flaticon-symbols-1:before { content: "\f10a"; }
+.flaticon-transport:before { content: "\f10b"; }
+
+$font-Flaticon-arrows: "\f100";
+$font-Flaticon-circle: "\f101";
+$font-Flaticon-cogwheel: "\f102";
+$font-Flaticon-computer: "\f103";
+$font-Flaticon-interface: "\f104";
+$font-Flaticon-interface-1: "\f105";
+$font-Flaticon-multimedia: "\f106";
+$font-Flaticon-social: "\f107";
+$font-Flaticon-social-media: "\f108";
+$font-Flaticon-symbols: "\f109";
+$font-Flaticon-symbols-1: "\f10a";
+$font-Flaticon-transport: "\f10b";

@@ -1,12 +1,12 @@
-// If you want to override materialize sass variables you can uncomment the following:
-@import "{poetic:materialize-scss}/sass/components/_color.scss";
-$primary-color: color("indigo", "darken-4");
-
-// import main scss file
-@import "{poetic:materialize-scss}/sass/materialize.scss";
-
-
-// Individual components
-@import "{}/imports/ui/layouts/header.scss";
-@import "{}/imports/ui/layouts/main.scss";
-@import "{}/imports/ui/pages/faq.scss";
+// // If you want to override materialize sass variables you can uncomment the following:
+// @import "{poetic:materialize-scss}/sass/components/_color.scss";
+// $primary-color: color("indigo", "darken-4");
+//
+// // import main scss file
+// @import "{poetic:materialize-scss}/sass/materialize.scss";
+//
+//
+// // Individual components
+// @import "{}/imports/ui/layouts/header.scss";
+// @import "{}/imports/ui/layouts/main.scss";
+// @import "{}/imports/ui/pages/faq.scss";

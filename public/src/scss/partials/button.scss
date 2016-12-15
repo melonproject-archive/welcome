@@ -1,0 +1,58 @@
+.btn-green{
+	background: $main;
+	color: $white !important;
+	&:hover{
+		background: darken($main, 5%) !important;
+	}
+	&:active{
+		&:focus{
+			outline: none;
+		}
+	}
+	&:focus{
+		outline: none;
+	}
+}
+.btn-outline-green{
+	background: transparent;
+	color: $main !important;
+	border: 1px solid $main;
+	&:hover{
+		border: 1px solid darken($main, 10%) !important;
+		background-color: darken($white, 1%) !important;
+	}
+	&:active{
+		&:focus{
+			outline: none;
+		}
+	}
+	&:focus{
+		outline: none;
+	}
+}
+.btn-outline-white{
+	background: transparent;
+	color: $white !important;
+	border: 1px solid $white;
+	&:hover{
+		border: 1px solid darken($white, 10%) !important;
+		background-color: transparent !important;
+		color: darken($white, 10%) !important;
+	}
+	&:active{
+		&:focus{
+			outline: none;
+		}
+	}
+	&:focus{
+		outline: none;
+	}
+}
+.btn-big{
+	font-size: 15px;
+	padding: 13px 40px;
+}
+.btn-normal{
+	font-size: $font-size-micro;
+	padding: 11px 35px;
+}
