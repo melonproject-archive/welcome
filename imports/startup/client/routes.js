@@ -6,9 +6,8 @@ import '../../ui/layouts/main.js';
 import '../../ui/layouts/header.js';
 import '../../ui/layouts/footer.js';
 import '../../ui/pages/welcome.js';
-import '../../ui/pages/faq.js';
+import '../../ui/pages/signup.js';
 
-// Default route
 FlowRouter.route('/', {
   name: 'welcome',
   action() {
@@ -20,13 +19,12 @@ FlowRouter.route('/', {
   },
 });
 
-// Route for faq
-FlowRouter.route('/faq', {
-  name: 'faq',
+FlowRouter.route('/signup', {
+  name: 'signup',
   action() {
     BlazeLayout.render('layout_main', {
       nav: 'layout_header',
-      main: 'faq',
+      main: 'signup',
       footer: 'layout_footer',
     });
   },
