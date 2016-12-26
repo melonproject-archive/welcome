@@ -1,4 +1,7 @@
 .site {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
 }
 
 .site-content {
@@ -8,15 +11,4 @@
 // No margin
 .page-footer {
   margin: 0;
-}
-
-// Parallax
-.parallax-container {
-  min-height: 600px;
-  line-height: 0;
-  height: auto;
-  color: rgba(255,255,255,.9);
-}
-.parallax-container .section {
-  width: 100%;
 }
