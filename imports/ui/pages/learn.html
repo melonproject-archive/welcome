@@ -1,23 +1,54 @@
 <template name="learn">
 
-  <!-- hero section -->
-	<section class="mp-hero">
+	<!-- hero section -->
+	<section class="mp-learn-hero">
 		<div class="container">
 			<div class="row">
-				<div class="col-md-10 col-md-offset-1 text-center hero-text">
-					<h1>Blockchain Software for Asset Management</h1>
-					<p>Building multichain capable software for wealth preservation with Melonport</p>
-					<div class="row">
-						<div class="col-md-6 col-md-offset-3">
-							<div id="mc_embed_signup">
-								<form action="//melonport.us13.list-manage.com/subscribe/post?u=75b8e7e6c89538475ba674c22&amp;id=7071c13156" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-									<div id="mc_embed_signup_scroll" class="input-group input-newsletter">
-										<input type="email" value="" name="EMAIL" class="form-control" id="mce-EMAIL" placeholder="Subscribe to Our Newsletter" required>
-										<span class="input-group-link">
-											<button type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"><i class="fi flaticon-interface"></i></button>
-										</span>
-									</div>
-								</form>
+				<div class="col-md-6 col-sm-6 col-xs-12 hero-text">
+					<h1>Our vision is to build multichain capable software for asset management</h1>
+					<a href="#" class="btn btn-light-blue">READ OUR GREENPAPER</a>
+				</div>
+				<div class="col-md-6 col-sm-6 col-xs-12 hero-summary">
+					<div class="hero-network-summary text-center">
+						<img src="dist/img/box.png">
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+	<!-- works section -->
+	<section class="mp-learn-works">
+		<div class="container-fluid">
+			<div class="row">
+				<ul class="nav nav-tabs nav-work" role="tablist">
+					<li role="presentation" class="active"><a href="#t_contribution" aria-controls="t_contribution" role="tab" data-toggle="tab">contribution</a></li>
+					<li role="presentation"><a href="#t_protocol" aria-controls="t_protocol" role="tab" data-toggle="tab">protocol</a></li>
+					<li role="presentation"><a href="#t_portal" aria-controls="t_portal" role="tab" data-toggle="tab">portal</a></li>
+				</ul>
+
+				<div class="tab-content content-work">
+					<div role="tabpanel" class="tab-pane active" id="t_contribution">
+						<div class="row">
+							<div class="col-md-12 text-center">
+								<h2 class="about-title">How it Works</h2>
+								<p>It’s also open sourced, meaning everybody can use it differently outside of a few non-negotiable elements that are programmed into the software (basic things you need to run a fund, like calculating NAV).</p>
+								<img src="dist/img/graph.png">
+							</div>
+						</div>
+					</div>
+					<div role="tabpanel" class="tab-pane" id="t_protocol">
+						<div class="row">
+							<div class="col-md-12">
+								<!-- protocol page -->
+							</div>
+						</div>
+					</div>
+					<div role="tabpanel" class="tab-pane" id="t_portal">
+						<div class="row">
+							<div class="col-md-12">
+								<!-- portal page -->
 							</div>
 						</div>
 					</div>
@@ -26,37 +57,78 @@
 		</div>
 	</section>
 
-	<section class="mp-logo">
+	<!-- contribute section -->
+	<section class="mp-learn-started">
 		<div class="container">
-			<div class="row mp-logo-wrapper">
-				<div class="col-md-3 col-sm-3 col-xs-6 mp-logo-box">
-					<img src="dist/img/benzinga.png">
-				</div>
-				<div class="col-md-3 col-sm-3 col-xs-6 mp-logo-box">
-					<img src="dist/img/epicenter.png">
-				</div>
-				<div class="col-md-3 col-sm-3 col-xs-6 mp-logo-box">
-					<img src="dist/img/ethfans.png">
-				</div>
-				<div class="col-md-3 col-sm-3 col-xs-6 mp-logo-box">
-					<img src="dist/img/ether.png">
-				</div>
-			</div>
-		</div>
-	</section>
-
-	<section class="mp-about">
-		<div class="container">
-			<div class="row mp-about-title">
+			<div class="row">
 				<div class="col-md-12 text-center">
-					<h2 class="main-title">This page is under construction</h2>
+					<h2 class="main-title">How You Can Contribute</h2>
+					<p class="desc-title">Token contracts of the melon protocol contribution.</p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-8 col-md-offset-2 started-tab">
+					<ul class="nav nav-tabs nav-started" role="tablist">
+						<li role="presentation" class="active"><a href="#connect" aria-controls="connect" role="tab" data-toggle="tab"><img src="dist/img/icon/connect_icon.png"> 01. Connect</a></li>
+						<li role="presentation"><a href="#wallet" aria-controls="wallet" role="tab" data-toggle="tab"><img src="dist/img/icon/etherium_icon.png"> 02. Fund Wallet</a></li>
+						<li role="presentation"><a href="#contribute" aria-controls="contribute" role="tab" data-toggle="tab"><img src="dist/img/icon/melonport_icon.png"> 03. Contribute</a></li>
+					</ul>
+
+					<div class="tab-content content-started">
+						<div role="tabpanel" class="tab-pane active" id="connect">
+							<h6>Connect to the Ethereum Blockchain</h6>
+							<div class="form-group">
+								<label>1. Using MetaMask</label>
+								<p class="text-code">
+									a) Install <a href="#">MetaMask</a> <br/>
+									b) Use Chrome to browse to https://contribution.melonport.com
+								</p>
+							</div>
+							<div class="form-group">
+								<label>2. Using Mist</label>
+								<p class="text-code">
+									a) Install and run <a href="#">Mist</a> <br />
+									b) Use Chrome to browse to https://contribution.melonport.com
+								</p>
+							</div>
+						</div>
+						<div role="tabpanel" class="tab-pane" id="wallet">
+							<h6>Fund our account with some Ether</h6>
+							<div class="form-group">
+								<label>1. Using other crypto currencies</label>
+								<p class="text-code">
+									Use ShapeShift to convert your crypto currencies to Ether
+								</p>
+							</div>
+							<div class="form-group">
+								<label>2. Using fiat currencies</label>
+								<p class="text-code">
+									Use BitcoinSuisse for direct access or use a centralized exchange to convert your fiat currencies to Ether
+								</p>
+							</div>
+						</div>
+						<div role="tabpanel" class="tab-pane" id="contribute">
+							<h6>Contribute to the future of finance with Melon</h6>
+							<div class="form-group">
+								<label>1. Visit our decentralised application</label>
+								<p class="text-code">
+									Browse to <a href="Browse to https://contribute.melonport.com">https://contribute.melonport.com</a>
+								</p>
+							</div>
+							<div class="form-group">
+								<label>2. Send funds and become a part of Melon</label>
+								<p class="text-code">
+									Use the decentralised application to send funds to Melon
+								</p>
+							</div>
+						</div>
+					</div>
 				</div>
 			</div>
 		</div>
 	</section>
 
-
-  <script type="text/javascript" src="dist/scripts/scripts.min.js"></script>
+	<script type="text/javascript" src="dist/scripts/scripts.min.js"></script>
 	<script type="text/javascript">
 		$(document).ready(function(){
 

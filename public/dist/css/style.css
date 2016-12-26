@@ -13396,44 +13396,56 @@ Creation date: 13/12/2016 23:24
   content: "\f101";
 }
 
-.flaticon-cogwheel:before {
+.flaticon-circle-1:before {
   content: "\f102";
 }
 
-.flaticon-computer:before {
+.flaticon-cogwheel:before {
   content: "\f103";
 }
 
-.flaticon-interface:before {
+.flaticon-computer:before {
   content: "\f104";
 }
 
-.flaticon-interface-1:before {
+.flaticon-interface:before {
   content: "\f105";
 }
 
-.flaticon-multimedia:before {
+.flaticon-interface-1:before {
   content: "\f106";
 }
 
-.flaticon-social:before {
+.flaticon-multimedia:before {
   content: "\f107";
 }
 
-.flaticon-social-media:before {
+.flaticon-office:before {
   content: "\f108";
 }
 
-.flaticon-symbols:before {
+.flaticon-people:before {
   content: "\f109";
 }
 
-.flaticon-symbols-1:before {
+.flaticon-social:before {
   content: "\f10a";
 }
 
-.flaticon-transport:before {
+.flaticon-social-media:before {
   content: "\f10b";
+}
+
+.flaticon-symbols:before {
+  content: "\f10c";
+}
+
+.flaticon-symbols-1:before {
+  content: "\f10d";
+}
+
+.flaticon-transport:before {
+  content: "\f10e";
 }
 
 /*!
