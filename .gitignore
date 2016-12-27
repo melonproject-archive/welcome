@@ -1,5 +1,5 @@
 node_modules/
-settings-production.json
+settings.json
 fullchain.pem
 privkey.pem
 mup.js

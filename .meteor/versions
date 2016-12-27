@@ -46,7 +46,6 @@ meteorspark:util@0.2.0
 minifier-css@1.1.13
 minifier-js@1.1.13
 minimongo@1.0.17
-miro:mailchimp@1.1.0
 mobile-experience@1.0.4
 mobile-status-bar@1.0.12
 modules@0.6.5
@@ -74,7 +73,6 @@ standard-minifier-js@1.0.8
 tap:i18n@1.8.2
 templating@1.1.14
 templating-tools@1.0.4
-themeteorchef:jquery-validation@1.14.0
 tracker@1.0.15
 ui@1.0.11
 underscore@1.0.9

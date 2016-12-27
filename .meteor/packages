@@ -33,9 +33,3 @@ okgrow:analytics        # Google analytics for flow-router
 
 # Internationalisation
 tap:i18n
-
-# Email subscription
-miro:mailchimp
-check
-underscore
-themeteorchef:jquery-validation # For validation
