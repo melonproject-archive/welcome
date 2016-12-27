@@ -8,6 +8,7 @@ import '/imports/ui/layouts/footer.js';
 import '/imports/ui/pages/welcome.js';
 import '/imports/ui/pages/about.js';
 import '/imports/ui/pages/learn.js';
+import '/imports/ui/pages/contribution.js';
 
 FlowRouter.route('/', {
   name: 'welcome',
@@ -37,6 +38,17 @@ FlowRouter.route('/learn', {
     BlazeLayout.render('layout_main', {
       nav: 'layout_header',
       main: 'learn',
+      footer: 'layout_footer',
+    });
+  },
+});
+
+FlowRouter.route('/contribution', {
+  name: 'contribution',
+  action() {
+    BlazeLayout.render('layout_main', {
+      nav: 'layout_header',
+      main: 'contribution',
       footer: 'layout_footer',
     });
   },
