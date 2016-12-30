@@ -44,20 +44,59 @@
             "subtitle": "By having decentralised storage and execution one can mitigate some of today's real world inefficiencies such as custody, counter-party and settlement. Melon creates a true alternative to traditional asset management."
           }
         },
-        "started": {
+        "sale": {
           "title": "How to Participate in our Tokensale",
           "subtitle": "Our contribution period will start <b>February 15th 2017</b>.",
           "connect": {
             "title": "01. Connect",
-            "subtitle": "Connect to the Ethereum Blockchain"
+            "subtitle": "Connect to the Ethereum Blockchain",
+            "description": {
+              "one": {
+                "label": "1. Using MetaMask",
+                "paragraph": "a) Install <a href='https://metamask.io/'>MetaMask</a> and<br/>
+                  b) Create an Ethereum Address"
+              },
+              "two": {
+                "label": "2. Using Mist",
+                "paragraph": "a) Install and run <a href='https://github.com/ethereum/mist/releases/tag/v0.8.8'>Mist</a> and<br/>
+                  b) Create an Ethereum Address"
+              }
+            }
           },
           "fund": {
             "title": "02. Fund Wallet",
-            "subtitle": "Fund your Ethereum Address with some Ether"
+            "subtitle": "Fund your Ethereum Address with some Ether",
+            "description": {
+              "one": {
+                "label": "1. Using other crypto currencies",
+                "paragraph": "Use for example: <br/>
+                  a) <a href='https://www.coinbase.com/' target='_blank'>Coinbase</a> or <br/>
+                  b) <a href='https://shapeshift.io/' target='_blank'>ShapeShift</a> to <br/>
+                  Convert your crypto currencies into Ether."
+              },
+              "two": {
+                "label": "2. Using fiat currencies",
+                "paragraph": "a) For non-technical people it is recommeneded to use <a href='https://www.bitcoinsuisse.ch/en/index/' target='_blank'>BitcoinSuisse</a> <br/>
+                  which can allocate your fiat currencies to Melon on your behalf. <br/>
+                  b) Or use a centralized exchange to convert your fiat currencies into Ether"
+              }
+            }
           },
           "contribute": {
             "title": "03. Contribute",
-            "subtitle": "Contribute to the future of finance"
+            "subtitle": "Contribute to the future of finance",
+            "description": {
+              "one": {
+                "label": "1. Visit our decentralised application",
+                "paragraph": "a) Use MetaMask together with Chrome or <br/>
+                  b) Use Mist to <br/>
+                  Browse to <a href='https://contribution.melonport.com/'>https://contribution.melonport.com/</a>"
+              },
+              "two": {
+                "label": "2. Send Ether and become a part of Melon",
+                "paragraph": "Use our decentralised application to send Ether to Melon"
+              }
+            }
           }
         },
         "partner": {
