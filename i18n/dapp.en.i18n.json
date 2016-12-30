@@ -1,34 +1,72 @@
 {
   "dapp": {
-
-    "app": {
-      "title": "melonport"
-      , "buttons": {
-        "signin": "Sign in"
-        ,"signout": "Sign out"
+    "layout": {
+      "footer": {
+        "copyright": "Copyright © 2016. All Right Reserved"
       }
-      , "headers": {
-        "identicon": "Identicon"
-        , "address": "Address"
-      }
-      , "copyright": "Copyright © 2016. All Right Reserved"
-    }
-    , "welcome": {
-      "header": "Welcome"
-      , "description": "Welcome to the Dapp of melonport. Where the security of the Blockchain meets the efficency of the Internet."
-    }
-    , "agreement": {
-      "header": "Disclaimer"
-      , "description": "Please agree to the following disclaimer before you continue."
-    }
-    , "components": {
-      "balance": {
-        "header": "Balance"
-        , "total": "Total Balance"
-      }
-      , "accounts": {
-        "header": "Accounts"
-        , "description": "Performance of selected Ethereum address."
+    },
+    "pages": {
+      "landing": {
+        "title": "Blockchain Software for Asset Management",
+        "subtitle": "Building multichain capable software for wealth preservation with Melonport",
+        "newsletter": "Subscribe to Our Newsletter",
+        "count": {
+          "one": {
+            "title": "$12.0B",
+            "subtitle": "Over Worth in Digital Asset Market"
+          },
+          "two": {
+            "title": "+120",
+            "subtitle": "Coins, Tokens and Cryptoassets"
+          },
+          "three": {
+            "title": "1st",
+            "subtitle": "Lower Your Cost & Grow Your Reputation"
+          }
+        },
+        "about": {
+          "title": "About Melonport",
+          "subtitle": "Melonport is the private company behind Melon. Melon is building multichain capable software for asset management",
+          "open": {
+            "title": "Open-source and Transparent",
+            "subtitle": "Melon is an open-source project building multichain capable software. Asset management track-records are transparent and auditable by everyone everywhere at any time."
+          },
+          "modular": {
+            "title": "Modular and Inclusive",
+            "subtitle": "Melon is built from the start to be ever-expandable and flexible. A modular framework for easily adding new functionality and features in a permisionless way that rewards developers."
+          },
+          "lowers": {
+            "title": "Lowers Costs and Time",
+            "subtitle": "By using blockchain technology, fixed and variable asset management costs as well as time requirements are drastically reduced. This enables a never-seen-before competitive environment for asset management strategies."
+          },
+          "decentralised": {
+            "title": "Decentralised and Reliable",
+            "subtitle": "By having decentralised storage and execution one can mitigate some of today's real world inefficiencies such as custody, counter-party and settlement. Melon creates a true alternative to traditional asset management."
+          }
+        },
+        "started": {
+          "title": "How to Participate in our Tokensale",
+          "subtitle": "Our contribution period will start <b>February 15th 2017</b>.",
+          "connect": {
+            "title": "01. Connect",
+            "subtitle": "Connect to the Ethereum Blockchain"
+          },
+          "fund": {
+            "title": "02. Fund Wallet",
+            "subtitle": "Fund your Ethereum Address with some Ether"
+          },
+          "contribute": {
+            "title": "03. Contribute",
+            "subtitle": "Contribute to the future of finance"
+          }
+        },
+        "partner": {
+          "title": "Our Corporate Partners"
+        },
+        "video": {
+          "title": "Melonport",
+          "subtitle": "Bringing It All Together"
+        }
       }
     }
   }
