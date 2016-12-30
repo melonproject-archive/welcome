@@ -1,46 +1,46 @@
 {
   "pages": {
     "landing": {
-      "title": "Blockchain Software for Asset Management",
-      "subtitle": "Building multichain capable software for wealth preservation with Melonport",
-      "newsletter": "Subscribe to Our Newsletter",
+      "title": "로그인 중...",
+      "subtitle": "",
+      "newsletter": "",
       "count": {
         "one": {
           "title": "$12.0B",
-          "subtitle": "Over Worth in Digital Asset Market"
+          "subtitle": ""
         },
         "two": {
           "title": "+120",
-          "subtitle": "Coins, Tokens and Cryptoassets"
+          "subtitle": ""
         },
         "three": {
           "title": "1st",
-          "subtitle": "Lower Your Cost & Grow Your Reputation"
+          "subtitle": ""
         }
       },
       "about": {
-        "title": "About Melonport",
-        "subtitle": "Melonport is the private company behind Melon. Melon is building multichain capable software for asset management",
+        "title": "",
+        "subtitle": "",
         "open": {
-          "title": "Open-source and Transparent",
-          "subtitle": "Melon is an open-source project building multichain capable software. Asset management track-records are transparent and auditable by everyone everywhere at any time."
+          "title": "",
+          "subtitle": ""
         },
         "modular": {
-          "title": "Modular and Inclusive",
-          "subtitle": "Melon is built from the start to be ever-expandable and flexible. A modular framework for easily adding new functionality and features in a permisionless way that rewards developers."
+          "title": "",
+          "subtitle": ""
         },
         "lowers": {
-          "title": "Lowers Costs and Time",
-          "subtitle": "By using blockchain technology, fixed and variable asset management costs as well as time requirements are drastically reduced. This enables a never-seen-before competitive environment for asset management strategies."
+          "title": "",
+          "subtitle": ""
         },
         "decentralised": {
-          "title": "Decentralised and Reliable",
-          "subtitle": "By having decentralised storage and execution one can mitigate some of today's real world inefficiencies such as custody, counter-party and settlement. Melon creates a true alternative to traditional asset management."
+          "title": "",
+          "subtitle": ""
         }
       },
       "sale": {
-        "title": "How to Participate in our Tokensale",
-        "subtitle": "Our contribution period will start <b>February 15th 2017</b>.",
+        "title": "",
+        "subtitle": "",
         "connect": {
           "title": "01. Connect",
           "subtitle": "Connect to the Ethereum Blockchain",
@@ -94,25 +94,25 @@
         }
       },
       "partner": {
-        "title": "Our Corporate Partners"
+        "title": ""
       },
       "video": {
         "title": "Melonport",
-        "subtitle": "Bringing It All Together"
+        "subtitle": ""
       }
     }
   },
   "layout": {
     "header": {
-      "learn": "Learn",
-      "firm": "Firm",
+      "learn": "",
+      "firm": "",
       "english": "English",
-      "korean": ""      
+      "korean": ""
     },
     "footer": {
-      "learn": "Learn",
-      "firm": "Firm",
-      "copyright": "Copyright © 2016. All Right Reserved"
+      "learn": "",
+      "firm": "",
+      "copyright": ""
     }
   }
 }
