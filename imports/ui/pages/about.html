@@ -4,7 +4,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12 col-sm-12 col-xs-12 text-center hero-text">
-					<h1>About Melonport</h1>
+          <h1>{{{i18n 'pages.firm.title'}}}</h1>
 				</div>
 			</div>
 		</div>
@@ -14,9 +14,12 @@
 		<div class="container-fluid">
 			<div class="row">
 				<ul class="nav nav-tabs nav-about" role="tablist">
-					<li role="presentation" class="active"><a href="about#brief" aria-controls="brief" role="tab" data-toggle="tab">brief</a></li>
-					<li role="presentation"><a href="about#careers" aria-controls="careers" role="tab" data-toggle="tab">careers</a></li>
-					<li role="presentation"><a href="about#purpose" aria-controls="purpose" role="tab" data-toggle="tab">purpose</a></li>
+					<li role="presentation" class="active"><a href="about#brief" aria-controls="brief" role="tab" data-toggle="tab">
+            {{{i18n 'pages.firm.brief.tabtitle'}}}</a></li>
+					<li role="presentation"><a href="about#careers" aria-controls="careers" role="tab" data-toggle="tab">
+            {{{i18n 'pages.firm.careers.tabtitle'}}}</a></li>
+					<li role="presentation"><a href="about#purpose" aria-controls="purpose" role="tab" data-toggle="tab">
+            {{{i18n 'pages.firm.purpose.tabtitle'}}}</a></li>
 				</ul>
 
 				<div class="tab-content content-about">
@@ -27,65 +30,21 @@
           				<div class="row">
           					<div class="col-md-12">
           						<img src="dist/img/icon-logo.png">
-          						<h3>Founded in 2016, Melonport AG is building Melon, a blockchain software for asset management. We’re based in beautiful Zug, Switzerland - in the heart of Crypto Valley one of the leading hubs for blockchain minds and technology.</h3>
+          						<h3>{{{i18n 'pages.firm.brief.intro'}}}</h3>
           					</div>
           				</div>
           			</div>
-								<!-- <div class="container-fluid brief-count">
-									<div class="row">
-										<div class="col-md-10 col-md-offset-1">
-											<div class="row">
-												<div class="col-md-4 col-sm-4 box-count-wrapper">
-													<div class="box-count">
-														<span class="box-count-icon">
-															<i class="fi flaticon-transport"></i>
-														</span>
-														<div class="box-count-text">
-															<p>Founded in</p>
-															<h3>2016</h3>
-														</div>
-													</div>
-													<p>Melonport was founded in 2016. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh  euismod tincidunt ut laoreet.</p>
-												</div>
-												<div class="col-md-4 col-sm-4 box-count-wrapper">
-													<div class="box-count">
-														<span class="box-count-icon">
-															<i class="fi flaticon-office"></i>
-														</span>
-														<div class="box-count-text">
-															<p>Collaborations</p>
-															<h3>325</h3>
-														</div>
-													</div>
-													<p>Lorem ipsum dolor sit amet, consecter adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
-												</div>
-												<div class="col-md-4 col-sm-4 box-count-wrapper">
-													<div class="box-count">
-														<span class="box-count-icon">
-															<i class="fi flaticon-people"></i>
-														</span>
-														<div class="box-count-text">
-															<p>Beta Testers</p>
-															<h3>128,900</h3>
-														</div>
-													</div>
-													<p>Melonport was founded in 2016. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh  euismod tincidunt ut laoreet.</p>
-												</div>
-											</div>
-										</div>
-									</div>
-								</div> -->
                 <div class="container brief-team">
 									<div class="row brief-team-wrapper">
 										<div class="col-md-12">
-											<h4 class="sub-about-title">Meet Our Team</h4>
+											<h4 class="sub-about-title">{{{i18n 'pages.firm.brief.team.title'}}}</h4>
 										</div>
                     <div class="col-md-3 col-sm-6 brief-team-box">
                       <img src="dist/img/team/reto.png">
                       <div class="brief-team-text">
                         <h3>Reto Trinkler</h3>
-                        <h6>Co-Founder</h6>
-                        <p>Blockchain developer with background in mathematics from ETH Zurich. He started developing Ethereum smart contracts immediately after their launch in 2015. He worked as a smart-contract developer at Brainbot Technologies (which is building the high-speed Raiden Network) and is host of Zurich's Blockchain Hacklab. Before this Reto developed a profitable trading algorithm for sport betting exchanges in C++.</p>
+                        <h6>{{{i18n 'pages.firm.brief.team.reto.title'}}}</h6>
+                        <p>{{{i18n 'pages.firm.brief.team.reto.bio'}}}</p>
                         <ul class="team-box-social">
                           <li><a href="https://github.com/retotrinkler" target="_blank"><i class="fi flaticon-circle-1"></i></a></li>
                           <li><a href="https://twitter.com/reto_trinkler" target="_blank"><i class="fi flaticon-social"></i></a></li>
@@ -97,8 +56,8 @@
                       <img src="dist/img/team/mona.png">
                       <div class="brief-team-text">
                         <h3>Mona El Isa</h3>
-                        <h6>Co-Founder</h6>
-                        <p>Former star-trader at Goldman Sachs, promoted to Vice President by the age of 26 and made the “top 30 under 30” list in Trader Magazine in 2008 and Forbes Magazine in 2011 after profitably trading the 2008 and 2011 crashes. Moved to Geneva-based macro fund Jabre Capital in 2011, before deciding in 2014 that the future of finance lay in blockchain technology. She studied Economics & Statistics at the University College London.</p>
+                        <h6>{{{i18n 'pages.firm.brief.team.mona.title'}}}</h6>
+                        <p>{{{i18n 'pages.firm.brief.team.mona.bio'}}}</p>
                         <ul class="team-box-social">
                           <li><a href="https://github.com/perhamgirl" target="_blank"><i class="fi flaticon-circle-1"></i></a></li>
                           <li><a href="https://twitter.com/perham83" target="_blank"><i class="fi flaticon-social"></i></a></li>
@@ -110,8 +69,8 @@
                       <img src="dist/img/team/gavin.png">
                       <div class="brief-team-text">
                         <h3>Dr Gavin Wood</h3>
-                        <h6>Advisor</h6>
-                        <p>Co-founder and CTO of Ethereum and now head of EthCore, one of the top providers of blockchain-powered enterprise solutions and developer of the Parity client. He coded Ethereum's first functional implementation, wrote the Yellow Paper (first formal specification of a blockchain protocol) and invented the Solidity language. Studied software engineering at University of York. Specializes in C++ and holds lifelong interest in game theory.</p>
+                        <h6>{{{i18n 'pages.firm.brief.team.gavin.title'}}}</h6>
+                        <p>{{{i18n 'pages.firm.brief.team.gavin.bio'}}}</p>
                         <ul class="team-box-social">
                           <li><a href="https://github.com/gavofyork" target="_blank"><i class="fi flaticon-circle-1"></i></a></li>
                           <li><a href="https://twitter.com/gavofyork" target="_blank"><i class="fi flaticon-social"></i></a></li>
@@ -123,8 +82,8 @@
                       <img src="dist/img/team/jehan.png">
                       <div class="brief-team-text">
                         <h3>Jehan Chu</h3>
-                        <h6>Advisor</h6>
-                        <p>Jehan Chu is a partner at Jen Advisors, a Hong Kong based early-stage Blockchain VC firm. He has been a Blockchain evangelist since 2013, is the founder of the Ethereum HK meetup, Hyperledger HK meetup, and a founding member of the Bitcoin Association of Hong Kong. Jehan is a Google EYE Program Mentor, Vice Chairman of Para Site, Board Member of Design Trust, and Technology Committee of the Asia Art Archive.</p>
+                        <h6>{{{i18n 'pages.firm.brief.team.jehan.title'}}}</h6>
+                        <p>{{{i18n 'pages.firm.brief.team.jehan.bio'}}}</p>
                         <ul class="team-box-social">
                           <li><a href="https://twitter.com/collectionist" target="_blank"><i class="fi flaticon-social"></i></a></li>
                           <li><a href="https://www.linkedin.com/in/jehan-chu-637101" target="_blank"><i class="fi flaticon-social-media"></i></a></li>
@@ -144,8 +103,8 @@
 										<div class="row">
 											<div class="col-md-12 careers-wrapper">
 												<div class="careers-title">
-													<h2 class="about-title">Careers</h2>
-                          <p>Interested in helping create and design a brand new software for asset management? Are you passionate about blockchain technology and hungry to succeed? Are you a team player and willing to play the game for the long term? If so, you've found the right place. We're a community of builders, engineers, designers, and entrepreneurs - who love what we do.</p>
+													<h2 class="about-title">{{{i18n 'pages.firm.careers.title'}}}</h2>
+                          <p>{{{i18n 'pages.firm.careers.intro'}}}</p>
 												</div>
 
                         <div class="row careers-box-wrapper">
@@ -245,8 +204,8 @@
   								<div class="row">
   									<div class="col-md-12 purpose-wrapper">
                       <div class="purpose-title">
-						            <h2 class="about-title">Purpose</h2>
-                        <p>Melon derives its name from the Greek word for “future”. We feel this is fitting for a software that we believe will dramatically reduce the barriers to entry and improve the inefficiencies experienced in the asset management space. Our purpose is to build a software for asset management that is fair and equal to all. The enables as many people as possible to be the next George Soros.</p>
+                        <h2 class="about-title">{{{i18n 'pages.firm.purpose.title'}}}</h2>
+                        <p>{{{i18n 'pages.firm.purpose.intro'}}}</p>
                       </div>
   									</div>
   								</div>

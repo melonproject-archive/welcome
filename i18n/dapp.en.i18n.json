@@ -100,6 +100,45 @@
         "title": "Melonport",
         "subtitle": "Bringing It All Together"
       }
+    },
+    "learn": {
+      "title": "About Melon"
+    },
+    "firm": {
+      "title": "About Melonport",
+      "brief": {
+        "tabtitle": "brief",
+        "intro": "Founded in 2016, Melonport AG is building Melon, a blockchain software for asset management. We’re based in beautiful Zug, Switzerland - in the heart of Crypto Valley one of the leading hubs for blockchain minds and technology.",
+        "team" : {
+          "title": "Meet Our Team",
+          "reto": {
+            "title": "Co-Founder",
+            "bio": "Blockchain developer with background in mathematics from ETH Zurich. He started developing Ethereum smart contracts immediately after their launch in 2015. He worked as a smart-contract developer at Brainbot Technologies (which is building the high-speed Raiden Network) and is host of Zurich's Blockchain Hacklab. Before this Reto developed a profitable trading algorithm for sport betting exchanges in C++."
+          },
+          "mona": {
+            "title": "Co-Founder",
+            "bio": "Former star-trader at Goldman Sachs, promoted to Vice President by the age of 26 and made the “top 30 under 30” list in Trader Magazine in 2008 and Forbes Magazine in 2011 after profitably trading the 2008 and 2011 crashes. Moved to Geneva-based macro fund Jabre Capital in 2011, before deciding in 2014 that the future of finance lay in blockchain technology. She studied Economics & Statistics at the University College London."
+          },
+          "gavin": {
+            "title": "Advisor",
+            "bio": "Co-founder and CTO of Ethereum and now head of EthCore, one of the top providers of blockchain-powered enterprise solutions and developer of the Parity client. He coded Ethereum's first functional implementation, wrote the Yellow Paper (first formal specification of a blockchain protocol) and invented the Solidity language. Studied software engineering at University of York. Specializes in C++ and holds lifelong interest in game theory."
+          },
+          "jehan": {
+            "title": "Advisor",
+            "bio": "Jehan Chu is a partner at Jen Advisors, a Hong Kong based early-stage Blockchain VC firm. He has been a Blockchain evangelist since 2013, is the founder of the Ethereum HK meetup, Hyperledger HK meetup, and a founding member of the Bitcoin Association of Hong Kong. Jehan is a Google EYE Program Mentor, Vice Chairman of Para Site, Board Member of Design Trust, and Technology Committee of the Asia Art Archive."
+          }
+        }
+      },
+      "careers": {
+        "tabtitle": "careers",
+        "title": "Careers",
+        "intro": "Interested in helping create and design a brand new software for asset management? Are you passionate about blockchain technology and hungry to succeed? Are you a team player and willing to play the game for the long term? If so, you've found the right place. We're a community of builders, engineers, designers, and entrepreneurs - who love what we do."
+      },
+      "purpose": {
+        "tabtitle": "purpose",
+        "title": "Purpose",
+        "intro": "Melon derives its name from the Greek word for “future”. We feel this is fitting for a software that we believe will dramatically reduce the barriers to entry and improve the inefficiencies experienced in the asset management space. Our purpose is to build a software for asset management that is fair and equal to all. The enables as many people as possible to be the next George Soros."
+      }
     }
   },
   "layout": {
@@ -107,7 +146,7 @@
       "learn": "Learn",
       "firm": "Firm",
       "english": "English",
-      "korean": ""      
+      "korean": ""
     },
     "footer": {
       "learn": "Learn",

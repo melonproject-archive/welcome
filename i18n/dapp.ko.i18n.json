@@ -100,6 +100,45 @@
         "title": "Melonport",
         "subtitle": ""
       }
+    },
+    "learn": {
+      "title": ""
+    },
+    "firm": {
+      "title": "",
+      "brief": {
+        "tabtitle": "",
+        "intro": "",
+        "team" : {
+          "title": "",
+          "reto": {
+            "title": "",
+            "bio": ""
+          },
+          "mona": {
+            "title": "",
+            "bio": ""
+          },
+          "gavin": {
+            "title": "",
+            "bio": ""
+          },
+          "jehan": {
+            "title": "",
+            "bio": ""
+          }
+        }
+      },
+      "careers": {
+        "tabtitle": "",
+        "title": "",
+        "intro": ""
+      },
+      "purpose": {
+        "tabtitle": "",
+        "title": "",
+        "intro": ""
+      }
     }
   },
   "layout": {
