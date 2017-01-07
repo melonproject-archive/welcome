@@ -145,12 +145,14 @@
     "header": {
       "learn": "",
       "firm": "",
+      "contribute": "",
       "english": "English",
       "korean": ""
     },
     "footer": {
       "learn": "",
       "firm": "",
+      "contribute": "",      
       "copyright": ""
     }
   }
