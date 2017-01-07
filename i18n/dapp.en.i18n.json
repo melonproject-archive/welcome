@@ -84,11 +84,11 @@
               "label": "1. Visit our decentralised application",
               "paragraph": "a) Use MetaMask together with Chrome or <br/>
                 b) Use Mist to <br/>
-                Browse to <a href='https://contribution.melonport.com/'>https://contribution.melonport.com/</a>"
+                Browse to our <a href='https://contribution.melonport.com/'>DApp</a>"
             },
             "two": {
               "label": "2. Send Ether and become a part of Melon",
-              "paragraph": "Use our decentralised application to send Ether to Melon"
+              "paragraph": "Use <a href='https://contribution.melonport.com/'>this decentralised application</a> to send Ether to Melon"
             }
           }
         }

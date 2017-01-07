@@ -332,7 +332,7 @@ $fullwidth : 100%;
 					font-size: $font-size-normal - 1;
 					color: $par-grey;
 					font-weight: $font-weight-regular;
-					word-break: break-all;
+					word-break: normal;
 					a{
 						color: $light-blue;
 					}
