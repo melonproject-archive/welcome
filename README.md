@@ -26,5 +26,5 @@ Application of the melon [website](https://melonport.com).
 After installation is complete, go to the above `website` directory, open a terminal and launch meteor:
 
   ```
-  meteor --settings=settings-development.json
+  meteor
   ```
