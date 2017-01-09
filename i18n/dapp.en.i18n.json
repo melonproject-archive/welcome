@@ -2,7 +2,7 @@
   "pages": {
     "landing": {
       "title": "Blockchain Software for Asset Management",
-      "subtitle": "Building blockchain capable software for wealth preservation with Melonport",
+      "subtitle": "Built on the Ethereum Platform",
       "newsletter": "Subscribe to Our Newsletter",
       "count": {
         "one": {
@@ -15,7 +15,7 @@
         },
         "three": {
           "title": "1st",
-          "subtitle": "One of the best performing asset class over the last few years"
+          "subtitle": "One of the best performing asset classes over the last few years"
         }
       },
       "about": {
