@@ -6,12 +6,16 @@
       "newsletter": "Subscribe to Our Newsletter",
       "count": {
         "one": {
-          "title": "$17.0 Billion",
+          "title": "$17.0B",
           "subtitle": "Total market capitalisation of the digital asset market today"
         },
         "two": {
           "title": "+700",
           "subtitle": "Coins, Tokens and Cryptoassets currently in existence, spread across a multitude of unconnected platforms"
+        },
+        "three": {
+          "title": "1st",
+          "subtitle": "One of the best performing asset class over the last few years"
         }
       },
       "about": {
