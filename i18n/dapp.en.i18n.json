@@ -51,8 +51,8 @@
                 b) Create an Ethereum Address"
             },
             "two": {
-              "label": "2. Using Mist",
-              "paragraph": "a) Install and run <a href='https://github.com/ethereum/mist/releases/tag/v0.8.8'>Mist</a> and<br/>
+              "label": "2. Using Parity/Mist",
+              "paragraph": "a) Install and run <a href='https://ethcore.io/parity.html'>Parity</a> and/or <a href='https://github.com/ethereum/mist/releases/tag/v0.8.8'>Mist</a> and<br/>
                 b) Create an Ethereum Address"
             }
           }
