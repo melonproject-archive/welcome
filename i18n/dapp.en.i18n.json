@@ -6,7 +6,7 @@
       "newsletter": "Subscribe to Our Newsletter",
       "count": {
         "one": {
-          "title": "$17.0B",
+          "title": "$15.0B",
           "subtitle": "Total market capitalisation of the digital asset market today"
         },
         "two": {
@@ -121,12 +121,16 @@
           },
           "gavin": {
             "title": "Advisor",
-            "bio": "Co-founder and CTO of Ethereum and now head of EthCore, one of the top providers of blockchain-powered enterprise solutions and developer of the Parity client. He coded Ethereum's first functional implementation, wrote the Yellow Paper (first formal specification of a blockchain protocol) and invented the Solidity language. Studied software engineering at University of York. Specializes in C++ and holds lifelong interest in game theory."
+            "bio": "Co-founder and CTO of Ethereum and now head of EthCore, one of the top providers of blockchain-powered enterprise solutions and developer of the Parity client. Dr. Gavin Wood coded Ethereum's first functional implementation, wrote the Yellow Paper (first formal specification of a blockchain protocol) and invented the Solidity language. Studied software engineering at University of York. Specializes in C++ and holds lifelong interest in game theory."
           },
           "jehan": {
             "title": "Advisor",
             "bio": "Jehan Chu is a partner at Jen Advisors, a Hong Kong based early-stage Blockchain VC firm. He has been a Blockchain evangelist since 2013, is the founder of the Ethereum HK meetup, Hyperledger HK meetup, and a founding member of the Bitcoin Association of Hong Kong. Jehan is a Google EYE Program Mentor, Vice Chairman of Para Site, Board Member of Design Trust, and Technology Committee of the Asia Art Archive."
-          }
+          },
+          "andreas": {
+            "title": "Advisor",
+            "bio": "Dr. Andreas Glarner, LL.M., is a Partner of MME Legal Tax Compliance, Switzerland and part of MME’s Crypto Team. Andreas has extensive expertise in fintech and blockchain technology, gaming services, e-payments and IP/IT law. He has been involved in various blockchain projects since 2013 and advises exchanges, gateways, wallet service providers, IOT projects and many other distributed ledger projects. Andreas Glarner advises both on contractual as well as on regulatory matters and is in this context in regular contact with the Swiss Financial Market Authorities (FINMA)."
+          },
         }
       },
       "careers": {
