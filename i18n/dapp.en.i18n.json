@@ -119,16 +119,23 @@
             "title": "Co-Founder",
             "bio": "Former star-trader at Goldman Sachs, promoted to Vice President by the age of 26 and made the “top 30 under 30” list in Trader Magazine in 2008 and Forbes Magazine in 2011 after profitably trading the 2008 and 2011 crashes. Moved to Geneva-based macro fund Jabre Capital in 2011, before deciding in 2014 that the future of finance lay in blockchain technology. She studied Economics & Statistics at the University College London."
           },
+          "george": {
+            "title": "Head of Business Development",
+            "bio": "George joined Ethereum as Business & Partnership Director in Mid 2014. He quickly established himself as a key communicator, moving to the role of Head of External Relations where he successfully advocated the Ethereum platform to the world and coordinated the Ethereum Foundation’s yearly developer conferences in London and Shanghai. During his 2 years at the Ethereum Foundation, George grew a strong appreciation and understanding of the Ethereum community and the ecosystem it inhabits."
+          }
+        },
+        "advisors" : {
+          "title": "Meet Our Advisors",
           "gavin": {
-            "title": "Advisor",
+            "title": "Technical Advisor",
             "bio": "Co-founder and CTO of Ethereum and now head of EthCore, one of the top providers of blockchain-powered enterprise solutions and developer of the Parity client. Dr. Gavin Wood coded Ethereum's first functional implementation, wrote the Yellow Paper (first formal specification of a blockchain protocol) and invented the Solidity language. Studied software engineering at University of York. Specializes in C++ and holds lifelong interest in game theory."
           },
           "jehan": {
-            "title": "Advisor",
+            "title": "Strategic Advisor",
             "bio": "Jehan Chu is a partner at Jen Advisors, a Hong Kong based early-stage Blockchain VC firm. He has been a Blockchain evangelist since 2013, is the founder of the Ethereum HK meetup, Hyperledger HK meetup, and a founding member of the Bitcoin Association of Hong Kong. Jehan is a Google EYE Program Mentor, Vice Chairman of Para Site, Board Member of Design Trust, and Technology Committee of the Asia Art Archive."
           },
           "andreas": {
-            "title": "Advisor",
+            "title": "Legal Advisor",
             "bio": "Dr. Andreas Glarner, LL.M., is a Partner of MME Legal Tax Compliance, Switzerland and part of MME’s Crypto Team. Andreas has extensive expertise in fintech and blockchain technology, gaming services, e-payments and IP/IT law. He has been involved in various blockchain projects since 2013 and advises exchanges, gateways, wallet service providers, IOT projects and many other distributed ledger projects. Andreas Glarner advises both on contractual as well as on regulatory matters and is in this context in regular contact with the Swiss Financial Market Authorities (FINMA)."
           }
         }
