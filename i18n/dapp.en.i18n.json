@@ -96,6 +96,9 @@
       "partner": {
         "title": "Our Corporate Partners"
       },
+      "module": {
+        "title": "Our Module Developers"
+      },
       "video": {
         "title": "Melonport",
         "subtitle": "Bringing It All Together"
@@ -159,14 +162,14 @@
   "layout": {
     "header": {
       "learn": "Learn",
-      "firm": "About",
+      "firm": "Firm",
       "contribute": "Contribute",
       "english": "English",
       "korean": ""
     },
     "footer": {
       "learn": "Learn",
-      "firm": "About",
+      "firm": "Firm",
       "contribute": "Contribute",
       "copyright": "Copyright © 2017. All Right Reserved"
     }
