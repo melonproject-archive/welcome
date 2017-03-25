@@ -76,7 +76,7 @@
             }
           }
         },
-        "contribute": {
+        "portal": {
           "title": "03. Contribute",
           "subtitle": "Contribute to the future of finance",
           "description": {
@@ -163,14 +163,14 @@
     "header": {
       "learn": "Learn",
       "firm": "Firm",
-      "contribute": "Contribute",
+      "portal": "Portal",
       "english": "English",
       "korean": ""
     },
     "footer": {
       "learn": "Learn",
       "firm": "Firm",
-      "contribute": "Contribute",
+      "portal": "Portal",
       "copyright": "Copyright © 2017. All Right Reserved"
     }
   }
