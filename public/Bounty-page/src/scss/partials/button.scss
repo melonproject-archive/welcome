@@ -1,0 +1,80 @@
+.btn-main{
+	background: $main;
+	color: $white;
+	border-radius: 0;
+	height: 50px;
+
+	&:hover{
+		background: darken($main, 10%);
+	}
+}
+.btn-light-blue{
+	background: $light-blue;
+	color: $white;
+	height: 50px;
+	padding: 15px 20px;
+	&:hover{
+		background: darken($light-blue, 10%);
+		color: $white;
+	}
+}
+.btn-green{
+	background: $main;
+	color: $white !important;
+	&:hover{
+		background: darken($main, 5%) !important;
+	}
+	&:active{
+		&:focus{
+			outline: none;
+		}
+	}
+	&:focus{
+		outline: none;
+	}
+}
+.btn-outline-blue{
+	background: transparent;
+	color: $light-blue !important;
+	border: 2px solid $light-blue;
+	padding: 10px 30px;
+	&:hover{
+		border: 2px solid darken($light-blue, 10%) !important;
+		background-color: darken($white, 1%) !important;
+		color: darken($light-blue, 10%) !important;
+	}
+	&:active{
+		&:focus{
+			outline: none;
+		}
+	}
+	&:focus{
+		outline: none;
+	}
+}
+.btn-outline-white{
+	background: transparent;
+	color: $white !important;
+	border: 1px solid $white;
+	&:hover{
+		border: 1px solid darken($white, 10%) !important;
+		background-color: transparent !important;
+		color: darken($white, 10%) !important;
+	}
+	&:active{
+		&:focus{
+			outline: none;
+		}
+	}
+	&:focus{
+		outline: none;
+	}
+}
+.btn-big{
+	font-size: 15px;
+	padding: 13px 40px;
+}
+.btn-normal{
+	font-size: $font-size-micro;
+	padding: 11px 35px;
+}
