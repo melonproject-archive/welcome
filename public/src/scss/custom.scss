@@ -852,6 +852,8 @@ $fullwidth : 100%;
 									text-align: center;
 									color: $par-grey;
 									margin-bottom: 5px;
+                  padding: 20px 100px;
+                  font-weight: 400;
 								}
 							}
 							.careers-box-wrapper{
@@ -1596,6 +1598,7 @@ $fullwidth : 100%;
 								.careers-title{
 									p{
 										font-size: $font-size-small;
+                    padding: $spacing-md $spacing-md;
 									}
 								}
 								.careers-box-wrapper{
