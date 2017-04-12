@@ -782,15 +782,16 @@ $fullwidth : 100%;
 						}
 					}
 					.brief-team{
-						padding: $spacing-lg $spacing-lg $spacing-lg * 2;
+						padding: $spacing-lg $spacing-lg 0;
 						.brief-team-wrapper{
 							.sub-about-title{
 								margin-bottom: $spacing-lg;
 							}
 							.brief-team-box{
+                margin-bottom: $spacing-lg;
 								img{
 									width: 100%;
-									height: 260px;
+									height: 337px;
 									object-fit: cover;
 									object-position: 50% 50%;
 									border: 1px solid #eeeeee;
@@ -812,9 +813,8 @@ $fullwidth : 100%;
 									}
 									p{
 										color: $par-grey;
-										font-size: $font-size-small - 1;
+										font-size: $font-size-small;
 										font-weight: $font-weight-regular;
-										min-height: 310px;
 										height: 100%;
 										margin-top: $spacing-md;
 										margin-bottom: $spacing-md;
@@ -2055,11 +2055,10 @@ and (orientation: landscape){
 .mp-about-container .content-about .mp-about-main .content-about-wrapper#content-careers .join-team{
 	margin:75px 0 50px;
 }
-.team-wrap {
-    margin-bottom: 100px;
-}
 .link-text{
 	color: #1189c6;
 	font-weight: bold;
 }
-.tes{}
+.team-wrap {
+    margin-bottom: $spacing-md !important;
+}

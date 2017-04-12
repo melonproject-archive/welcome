@@ -129,6 +129,10 @@
           "ahmad":{
             "title": "Head of Design",
             "bio": "Passionate UI / UX Designer with a background in Computer Science at UIN Yogyakarta. Experienced in web and mobile design for more than 4 years with a strong focus on unique designs and customer experience. In 2012, he has built a non-profit platform for book lovers, to share books among each others, in Indonesia called lendabook.co. lendabook.co led to winning of the World Summit Youth Award 2013 organized by ICTA."
+          },
+          "jenna":{
+            "title": "Front-end Developer",
+            "bio": "Software engineer with extensive background in finance and experience in asset management. Worked in hedge funds both in Paris and New York between 2014 and 2016. Her keen interest in the Ethereum ecosystem got her into programming. She started learning full stack javascript at Fullstack Academy of Code in New York, before diving deeper into decentralized apps development. She studied at ESCP Europe in Paris and completed a master in management and financial engineering."
           }
         },
         "advisors" : {
