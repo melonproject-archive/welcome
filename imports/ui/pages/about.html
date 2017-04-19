@@ -13,8 +13,10 @@
 		<div class="container-fluid">
 			<div class="row">
 				<ul class="nav nav-tabs nav-about" role="tablist">
-					<li role="presentation" class="active"><a href="about#brief" aria-controls="brief" role="tab" data-toggle="tab">
-            {{{i18n 'pages.firm.brief.tabtitle'}}}</a></li>
+					<li role="presentation" class="active"><a href="about#values" aria-controls="brief" role="tab" data-toggle="tab">
+            {{{i18n 'pages.firm.values.tabtitle'}}}</a></li>
+          <li role="presentation"><a href="about#tabteam" aria-controls="brief" role="tab" data-toggle="tab">
+            {{{i18n 'pages.firm.tabteam.tabtitle'}}}</a></li>
 					<li role="presentation"><a href="about#careers" aria-controls="careers" role="tab" data-toggle="tab">
             {{{i18n 'pages.firm.careers.tabtitle'}}}</a></li>
 					<li role="presentation"><a href="about#purpose" aria-controls="purpose" role="tab" data-toggle="tab">
@@ -22,29 +24,44 @@
 				</ul>
 
 				<div class="tab-content content-about">
-					<div role="tabpanel" class="tab-pane active" id="brief">
+					<div role="tabpanel" class="tab-pane active" id="values">
 						<div class="mp-about-main">
-							<div class="content-about-wrapper" id="content-brief">
-                <div class="container brief-intro">
+							<div class="content-about-wrapper" id="content-values">
+                <div class="container">
           				<div class="row">
-          					<div class="col-md-12">
-          						<img src="src/img/icon-logo.png">
-          						<h3>{{{i18n 'pages.firm.brief.intro'}}}</h3>
-          					</div>
+                    <div class="col-md-12 values-wrapper">
+            					<div class="values-title">
+                        <h2 class="about-title">{{{i18n 'pages.firm.values.title'}}}</h2>
+            						<p>{{{i18n 'pages.firm.values.intro'}}}</p>
+            					</div>
+                    </div>
           				</div>
           			</div>
+              </div>
+            </div>
+		      </div>
+
+          <div role="tabpanel" class="tab-pane" id="tabteam">
+						<div class="mp-about-main">
+							<div class="content-about-wrapper" id="content-team">
+                <div class="container">
+  								<div class="row">
+  									<div class="col-md-12 purpose-wrapper">
+                      <div class="team-title">
+                        <h2 class="about-title">{{{i18n 'pages.firm.tabteam.title'}}}</h2>
+                      </div>
+  									</div>
+  								</div>
+  							</div>
                 <div class="container brief-team">
           				<div class="row brief-team-wrapper">
-          					<div class="col-md-12">
-          						<h4 class="sub-about-title">{{{i18n 'pages.firm.brief.team.title'}}}</h4>
-          					</div>
           					<div class="col-md-12 team-wrap">
                       <div class="col-md-4 col-sm-6 brief-team-box">
                         <img src="src/img/team/reto.png">
                         <div class="brief-team-text">
                           <h3>Reto Trinkler</h3>
-                          <h6>{{{i18n 'pages.firm.brief.team.reto.title'}}}</h6>
-                          <p>{{{i18n 'pages.firm.brief.team.reto.bio'}}}</p>
+                          <h6>{{{i18n 'pages.firm.tabteam.team.reto.title'}}}</h6>
+                          <p>{{{i18n 'pages.firm.tabteam.team.reto.bio'}}}</p>
                           <ul class="team-box-social">
                             <li><a href="https://github.com/retotrinkler" target="_blank"><i class="fi flaticon-circle-1"></i></a></li>
                             <li><a href="https://twitter.com/reto_trinkler" target="_blank"><i class="fi flaticon-social"></i></a></li>
@@ -56,8 +73,8 @@
                         <img src="src/img/team/mona.png">
                         <div class="brief-team-text">
                           <h3>Mona El Isa</h3>
-                          <h6>{{{i18n 'pages.firm.brief.team.mona.title'}}}</h6>
-                          <p>{{{i18n 'pages.firm.brief.team.mona.bio'}}}</p>
+                          <h6>{{{i18n 'pages.firm.tabteam.team.mona.title'}}}</h6>
+                          <p>{{{i18n 'pages.firm.tabteam.team.mona.bio'}}}</p>
                           <ul class="team-box-social">
                             <li><a href="https://github.com/perhamgirl" target="_blank"><i class="fi flaticon-circle-1"></i></a></li>
                             <li><a href="https://twitter.com/perham83" target="_blank"><i class="fi flaticon-social"></i></a></li>
@@ -69,8 +86,8 @@
                         <img src="src/img/team/george.png">
                         <div class="brief-team-text">
                           <h3>George Hallam</h3>
-                          <h6>{{{i18n 'pages.firm.brief.team.george.title'}}}</h6>
-                          <p>{{{i18n 'pages.firm.brief.team.george.bio'}}}</p>
+                          <h6>{{{i18n 'pages.firm.tabteam.team.george.title'}}}</h6>
+                          <p>{{{i18n 'pages.firm.tabteam.team.george.bio'}}}</p>
                           <ul class="team-box-social">
                             <li><a href="https://github.com/thehighfiveghost" target="_blank"><i class="fi flaticon-circle-1"></i></a></li>
                             <li><a href="https://twitter.com/GeorgeAHallam" target="_blank"><i class="fi flaticon-social"></i></a></li>
@@ -82,8 +99,8 @@
                         <img src="src/img/team/ahmad.png">
                         <div class="brief-team-text">
                           <h3>Ahmad S. Afandi</h3>
-                          <h6>{{{i18n 'pages.firm.brief.team.ahmad.title'}}}</h6>
-                          <p>{{{i18n 'pages.firm.brief.team.ahmad.bio'}}}</p>
+                          <h6>{{{i18n 'pages.firm.tabteam.team.ahmad.title'}}}</h6>
+                          <p>{{{i18n 'pages.firm.tabteam.team.ahmad.bio'}}}</p>
                           <ul class="team-box-social">
                             <li><a href="https://github.com/peterdraw" target="_blank"><i class="fi flaticon-circle-1"></i></a></li>
                             <li><a href="https://twitter.com/peterdraw" target="_blank"><i class="fi flaticon-social"></i></a></li>
@@ -95,8 +112,8 @@
                         <img src="src/img/team/jenna.jpg">
                         <div class="brief-team-text">
                           <h3>Jenna Zenk</h3>
-                          <h6>{{{i18n 'pages.firm.brief.team.jenna.title'}}}</h6>
-                          <p>{{{i18n 'pages.firm.brief.team.jenna.bio'}}}</p>
+                          <h6>{{{i18n 'pages.firm.tabteam.team.jenna.title'}}}</h6>
+                          <p>{{{i18n 'pages.firm.tabteam.team.jenna.bio'}}}</p>
                           <ul class="team-box-social">
                             <li><a href="https://github.com/jennazenk" target="_blank"><i class="fi flaticon-circle-1"></i></a></li>
                             <li><a href="https://twitter.com/jennaszenk" target="_blank"><i class="fi flaticon-social"></i></a></li>
@@ -107,19 +124,18 @@
                     </div>
                   </div>
                 </div>
-
                 <div class="container brief-team">
           				<div class="row brief-team-wrapper">
           					<div class="col-md-12">
-          						<h4 class="sub-about-title">{{{i18n 'pages.firm.brief.advisors.title'}}}</h4>
+          						<h2 class="about-title">{{{i18n 'pages.firm.tabteam.advisors.title'}}}</h2>
           					</div>
-          					<div class="col-md-12 team-wrap">
+          					<div class="col-md-12 team-wrap brief-team">
                       <div class="col-md-4 col-sm-6 brief-team-box">
                         <img src="src/img/team/gavin.png">
                         <div class="brief-team-text">
                           <h3>Dr Gavin Wood</h3>
-                          <h6>{{{i18n 'pages.firm.brief.advisors.gavin.title'}}}</h6>
-                          <p>{{{i18n 'pages.firm.brief.advisors.gavin.bio'}}}</p>
+                          <h6>{{{i18n 'pages.firm.tabteam.advisors.gavin.title'}}}</h6>
+                          <p>{{{i18n 'pages.firm.tabteam.advisors.gavin.bio'}}}</p>
                           <ul class="team-box-social">
                             <li><a href="https://github.com/gavofyork" target="_blank"><i class="fi flaticon-circle-1"></i></a></li>
                             <li><a href="https://twitter.com/gavofyork" target="_blank"><i class="fi flaticon-social"></i></a></li>
@@ -131,8 +147,8 @@
                         <img src="src/img/team/andreas.png">
                         <div class="brief-team-text">
                           <h3>Dr. Andreas Glarner</h3>
-                          <h6>{{{i18n 'pages.firm.brief.advisors.andreas.title'}}}</h6>
-                          <p>{{{i18n 'pages.firm.brief.advisors.andreas.bio'}}}</p>
+                          <h6>{{{i18n 'pages.firm.tabteam.advisors.andreas.title'}}}</h6>
+                          <p>{{{i18n 'pages.firm.tabteam.advisors.andreas.bio'}}}</p>
                           <ul class="team-box-social">
                             <li><a href="https://twitter.com/mme_switzerland" target="_blank"><i class="fi flaticon-social"></i></a></li>
                             <li><a href="https://www.linkedin.com/in/andreas-glarner-49b78b16" target="_blank"><i class="fi flaticon-social-media"></i></a></li>
@@ -143,8 +159,8 @@
                         <img src="src/img/team/jehan.png">
                         <div class="brief-team-text">
                           <h3>Jehan Chu</h3>
-                          <h6>{{{i18n 'pages.firm.brief.advisors.jehan.title'}}}</h6>
-                          <p>{{{i18n 'pages.firm.brief.advisors.jehan.bio'}}}</p>
+                          <h6>{{{i18n 'pages.firm.tabteam.advisors.jehan.title'}}}</h6>
+                          <p>{{{i18n 'pages.firm.tabteam.advisors.jehan.bio'}}}</p>
                           <ul class="team-box-social">
                             <li><a href="https://twitter.com/collectionist" target="_blank"><i class="fi flaticon-social"></i></a></li>
                             <li><a href="https://www.linkedin.com/in/jehan-chu-637101" target="_blank"><i class="fi flaticon-social-media"></i></a></li>
@@ -154,9 +170,9 @@
                     </div>
                   </div>
                 </div>
-              </div>
-            </div>
-		      </div>
+							</div>
+						</div>
+					</div>
 
       		<div role="tabpanel" class="tab-pane" id="careers">
       			<div class="mp-about-main">

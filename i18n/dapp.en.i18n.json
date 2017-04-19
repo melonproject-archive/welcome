@@ -109,11 +109,16 @@
     },
     "firm": {
       "title": "About Melonport",
-      "brief": {
-        "tabtitle": "brief",
-        "intro": "Founded in 2016, Melonport AG is building Melon, a blockchain software for asset management. We’re based in beautiful Zug, Switzerland - in the heart of Crypto Valley one of the leading hubs for blockchain minds and technology.",
+      "values": {
+        "tabtitle": "values",
+        "title": "Values",
+        "intro": "Founded in 2016, Melonport AG is building Melon, a blockchain software for asset management. We’re based in beautiful Zug, Switzerland - in the heart of Crypto Valley one of the leading hubs for blockchain minds and technology."
+      },
+      "tabteam": {
+        "tabtitle": "team",
+        "title": "Meet Our Team",
+        "intro": "We're a community of builders, engineers, designers, and entrepreneurs - who love what we do.",
         "team" : {
-          "title": "Meet Our Team",
           "reto": {
             "title": "Chairman/CTO",
             "bio": "Blockchain developer with background in mathematics from ETH Zurich. He started developing Ethereum smart contracts immediately after their launch in 2015. He worked as a smart-contract developer at Brainbot Technologies (which is building the high-speed Raiden Network) and is host of Zurich's Blockchain Hacklab. Before this Reto developed a profitable trading algorithm for sport betting exchanges in C++."
