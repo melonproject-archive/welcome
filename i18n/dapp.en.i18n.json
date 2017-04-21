@@ -105,7 +105,10 @@
       }
     },
     "learn": {
-      "title": "About Melon"
+      "title": "About Melon",
+      "video": {
+        "title": "The Melon Protocol"
+      }
     },
     "firm": {
       "title": "About Melonport",
@@ -172,6 +175,7 @@
     "header": {
       "learn": "Learn",
       "firm": "Firm",
+      "about": "About",
       "portal": "Portal",
       "english": "English",
       "korean": ""
@@ -180,6 +184,7 @@
       "learn": "Learn",
       "firm": "Firm",
       "portal": "Portal",
+      "about": "About",
       "copyright": "Copyright © 2017. All Right Reserved"
     }
   }

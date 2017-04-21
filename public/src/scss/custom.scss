@@ -446,6 +446,38 @@ $fullwidth : 100%;
 		}
 	}
 }
+.mp-video-protocol{
+	background: url('../img/protocol_video.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: 50% 50%;
+	height: 420px;
+	padding: $spacing-lg * 2 0;
+	h2{
+		color: $white;
+		font-size: $font-size-venti - 3;
+		font-weight: $font-weight-regular;
+	}
+	h5{
+		color: $white;
+		font-weight: $font-weight-regular;
+		font-size: $font-size-grande - 3;
+		margin-top: $spacing-sm;
+		margin-bottom: $spacing-md;
+	}
+	a{
+		cursor: pointer;
+		i{
+			color: $light-blue;
+			font-size: $font-size-venti;
+		}
+		&:hover{
+			i{
+				color: darken($light-blue, 10%);
+			}
+		}
+	}
+}
 
 // contribution page
 .mp-contrib-hero{
@@ -2217,4 +2249,10 @@ and (orientation: landscape){
 }
 .team-wrap {
     margin-bottom: $spacing-md !important;
+}
+.protocol-vid{
+  margin-bottom: $spacing-lg;
+}
+.protocol-vid-text{
+  margin-top: $spacing-md;
 }
