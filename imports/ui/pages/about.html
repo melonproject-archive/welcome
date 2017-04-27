@@ -1,5 +1,5 @@
 <template name="about">
-  <section class="mp-about-hero">
+  	<section class="mp-about-hero">
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12 col-sm-12 col-xs-12 text-center hero-text">
@@ -13,246 +13,258 @@
 		<div class="container-fluid">
 			<div class="row">
 				<ul class="nav nav-tabs nav-about" role="tablist">
-					<li role="presentation" class="active"><a href="about#values" aria-controls="brief" role="tab" data-toggle="tab">
-            {{{i18n 'pages.firm.values.tabtitle'}}}</a></li>
-          <li role="presentation"><a href="about#tabteam" aria-controls="brief" role="tab" data-toggle="tab">
-            {{{i18n 'pages.firm.tabteam.tabtitle'}}}</a></li>
-					<li role="presentation"><a href="about#careers" aria-controls="careers" role="tab" data-toggle="tab">
-            {{{i18n 'pages.firm.careers.tabtitle'}}}</a></li>
-					<li role="presentation"><a href="about#purpose" aria-controls="purpose" role="tab" data-toggle="tab">
-            {{{i18n 'pages.firm.purpose.tabtitle'}}}</a></li>
+					<li role="presentation" class="active">
+						<a href="about#values" aria-controls="brief" role="tab" data-toggle="tab">
+            				{{{i18n 'pages.firm.values.tabtitle'}}}
+            			</a>
+            		</li>
+          			<li role="presentation">
+          				<a href="about#tabteam" aria-controls="brief" role="tab" data-toggle="tab">
+            				{{{i18n 'pages.firm.tabteam.tabtitle'}}}
+            			</a>
+            		</li>
+					<li role="presentation">
+						<a href="about#careers" aria-controls="careers" role="tab" data-toggle="tab">
+            				{{{i18n 'pages.firm.careers.tabtitle'}}}
+            			</a>
+            		</li>
+					<li role="presentation">
+						<a href="about#purpose" aria-controls="purpose" role="tab" data-toggle="tab">
+            				{{{i18n 'pages.firm.purpose.tabtitle'}}}
+            			</a>
+            		</li>
 				</ul>
 
 				<div class="tab-content content-about">
 					<div role="tabpanel" class="tab-pane active" id="values">
 						<div class="mp-about-main">
 							<div class="content-about-wrapper" id="content-values">
-                <div class="container">
-          				<div class="row">
-                    <div class="col-md-12 values-wrapper">
-            					<div class="values-title">
-                        <h2 class="about-title">{{{i18n 'pages.firm.values.title'}}}</h2>
-            						<p>{{{i18n 'pages.firm.values.intro'}}}</p>
-            					</div>
-                    </div>
-          				</div>
-          			</div>
-              </div>
-            </div>
-		      </div>
+				                <div class="container">
+				          			<div class="row">
+					                    <div class="col-md-12 values-wrapper">
+					            			<div class="values-title">
+					                        	<h2 class="about-title">{{{i18n 'pages.firm.values.title'}}}</h2>
+					            				<p>{{{i18n 'pages.firm.values.intro'}}}</p>
+					            			</div>
+					                    </div>
+				          			</div>
+				          		</div>
+              				</div>
+            			</div>
+		      		</div>
 
-          <div role="tabpanel" class="tab-pane" id="tabteam">
+          			<div role="tabpanel" class="tab-pane" id="tabteam">
 						<div class="mp-about-main">
 							<div class="content-about-wrapper" id="content-team">
-                <div class="container">
-  								<div class="row">
-  									<div class="col-md-12 purpose-wrapper">
-                      <div class="team-title">
-                        <h2 class="about-title">{{{i18n 'pages.firm.tabteam.title'}}}</h2>
-                      </div>
-  									</div>
+                				<div class="container">
+	  								<div class="row">
+	  									<div class="col-md-12 purpose-wrapper">
+						                    <div class="team-title">
+						                    	<h2 class="about-title">{{{i18n 'pages.firm.tabteam.title'}}}</h2>
+						                    </div>
+	  									</div>
+	  								</div>
   								</div>
-  							</div>
-                <div class="container brief-team">
-          				<div class="row brief-team-wrapper">
-          					<div class="col-md-12 team-wrap">
-                      <div class="col-md-4 col-sm-6 brief-team-box">
-                        <img src="src/img/team/reto.png">
-                        <div class="brief-team-text">
-                          <h3>Reto Trinkler</h3>
-                          <h6>{{{i18n 'pages.firm.tabteam.team.reto.title'}}}</h6>
-                          <p>{{{i18n 'pages.firm.tabteam.team.reto.bio'}}}</p>
-                          <ul class="team-box-social">
-                            <li><a href="https://github.com/retotrinkler" target="_blank"><i class="fi flaticon-circle-1"></i></a></li>
-                            <li><a href="https://twitter.com/reto_trinkler" target="_blank"><i class="fi flaticon-social"></i></a></li>
-                            <li><a href="https://ch.linkedin.com/in/reto-trinkler-170a78106/en" target="_blank"><i class="fi flaticon-social-media"></i></a></li>
-                          </ul>
-                        </div>
-                      </div>
-                      <div class="col-md-4 col-sm-6 brief-team-box">
-                        <img src="src/img/team/mona.png">
-                        <div class="brief-team-text">
-                          <h3>Mona El Isa</h3>
-                          <h6>{{{i18n 'pages.firm.tabteam.team.mona.title'}}}</h6>
-                          <p>{{{i18n 'pages.firm.tabteam.team.mona.bio'}}}</p>
-                          <ul class="team-box-social">
-                            <li><a href="https://github.com/perhamgirl" target="_blank"><i class="fi flaticon-circle-1"></i></a></li>
-                            <li><a href="https://twitter.com/perham83" target="_blank"><i class="fi flaticon-social"></i></a></li>
-                            <li><a href="https://ch.linkedin.com/in/mona-el-isa-3a653526" target="_blank"><i class="fi flaticon-social-media"></i></a></li>
-                          </ul>
-                        </div>
-                      </div>
-                      <div class="col-md-4 col-sm-6 brief-team-box">
-                        <img src="src/img/team/george.png">
-                        <div class="brief-team-text">
-                          <h3>George Hallam</h3>
-                          <h6>{{{i18n 'pages.firm.tabteam.team.george.title'}}}</h6>
-                          <p>{{{i18n 'pages.firm.tabteam.team.george.bio'}}}</p>
-                          <ul class="team-box-social">
-                            <li><a href="https://github.com/thehighfiveghost" target="_blank"><i class="fi flaticon-circle-1"></i></a></li>
-                            <li><a href="https://twitter.com/GeorgeAHallam" target="_blank"><i class="fi flaticon-social"></i></a></li>
-                            <li><a href="https://www.linkedin.com/in/george-hallam-a5002979/" target="_blank"><i class="fi flaticon-social-media"></i></a></li>
-                          </ul>
-                        </div>
-                      </div>
-                      <div class="col-md-4 col-sm-6 brief-team-box">
-                        <img src="src/img/team/ahmad.png">
-                        <div class="brief-team-text">
-                          <h3>Ahmad S. Afandi</h3>
-                          <h6>{{{i18n 'pages.firm.tabteam.team.ahmad.title'}}}</h6>
-                          <p>{{{i18n 'pages.firm.tabteam.team.ahmad.bio'}}}</p>
-                          <ul class="team-box-social">
-                            <li><a href="https://github.com/peterdraw" target="_blank"><i class="fi flaticon-circle-1"></i></a></li>
-                            <li><a href="https://twitter.com/peterdraw" target="_blank"><i class="fi flaticon-social"></i></a></li>
-                            <li><a href="https://id.linkedin.com/in/ahmad-syarif-afandi" target="_blank"><i class="fi flaticon-social-media"></i></a></li>
-                          </ul>
-                        </div>
-                      </div>
-                      <div class="col-md-4 col-sm-6 brief-team-box">
-                        <img src="src/img/team/jenna.jpg">
-                        <div class="brief-team-text">
-                          <h3>Jenna Zenk</h3>
-                          <h6>{{{i18n 'pages.firm.tabteam.team.jenna.title'}}}</h6>
-                          <p>{{{i18n 'pages.firm.tabteam.team.jenna.bio'}}}</p>
-                          <ul class="team-box-social">
-                            <li><a href="https://github.com/jennazenk" target="_blank"><i class="fi flaticon-circle-1"></i></a></li>
-                            <li><a href="https://twitter.com/jennaszenk" target="_blank"><i class="fi flaticon-social"></i></a></li>
-                            <li><a href="https://www.linkedin.com/in/jenna-zenk-72545266/" target="_blank"><i class="fi flaticon-social-media"></i></a></li>
-                          </ul>
-                        </div>
-                      </div>
-                      <div class="col-md-4 col-sm-6 brief-team-box">
-                        <img src="src/img/team/simon.jpg">
-                        <div class="brief-team-text">
-                          <h3>Simon Schmid</h3>
-                          <h6>{{{i18n 'pages.firm.tabteam.team.simon.title'}}}</h6>
-                          <p>{{{i18n 'pages.firm.tabteam.team.simon.bio'}}}</p>
-                          <ul class="team-box-social">
-                            <li><a href="https://github.com/schmidsi" target="_blank"><i class="fi flaticon-circle-1"></i></a></li>
-                            <li><a href="https://twitter.com/schmid_si" target="_blank"><i class="fi flaticon-social"></i></a></li>
-                            <li><a href="https://www.linkedin.com/in/simonschmidzh/" target="_blank"><i class="fi flaticon-social-media"></i></a></li>
-                          </ul>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="container brief-team">
-          				<div class="row brief-team-wrapper">
-          					<div class="col-md-12">
-          						<h2 class="about-title">{{{i18n 'pages.firm.tabteam.advisors.title'}}}</h2>
-          					</div>
-          					<div class="col-md-12 team-wrap brief-team">
-                      <div class="col-md-4 col-sm-6 brief-team-box">
-                        <img src="src/img/team/gavin.png">
-                        <div class="brief-team-text">
-                          <h3>Dr Gavin Wood</h3>
-                          <h6>{{{i18n 'pages.firm.tabteam.advisors.gavin.title'}}}</h6>
-                          <p>{{{i18n 'pages.firm.tabteam.advisors.gavin.bio'}}}</p>
-                          <ul class="team-box-social">
-                            <li><a href="https://github.com/gavofyork" target="_blank"><i class="fi flaticon-circle-1"></i></a></li>
-                            <li><a href="https://twitter.com/gavofyork" target="_blank"><i class="fi flaticon-social"></i></a></li>
-                            <li><a href="https://uk.linkedin.com/in/gavin-wood-88843316" target="_blank"><i class="fi flaticon-social-media"></i></a></li>
-                          </ul>
-                        </div>
-                      </div>
-                      <div class="col-md-4 col-sm-6 brief-team-box">
-                        <img src="src/img/team/andreas.png">
-                        <div class="brief-team-text">
-                          <h3>Dr. Andreas Glarner</h3>
-                          <h6>{{{i18n 'pages.firm.tabteam.advisors.andreas.title'}}}</h6>
-                          <p>{{{i18n 'pages.firm.tabteam.advisors.andreas.bio'}}}</p>
-                          <ul class="team-box-social">
-                            <li><a href="https://twitter.com/mme_switzerland" target="_blank"><i class="fi flaticon-social"></i></a></li>
-                            <li><a href="https://www.linkedin.com/in/andreas-glarner-49b78b16" target="_blank"><i class="fi flaticon-social-media"></i></a></li>
-                          </ul>
-                        </div>
-                      </div>
-                      <div class="col-md-4 col-sm-6 brief-team-box">
-                        <img src="src/img/team/jehan.png">
-                        <div class="brief-team-text">
-                          <h3>Jehan Chu</h3>
-                          <h6>{{{i18n 'pages.firm.tabteam.advisors.jehan.title'}}}</h6>
-                          <p>{{{i18n 'pages.firm.tabteam.advisors.jehan.bio'}}}</p>
-                          <ul class="team-box-social">
-                            <li><a href="https://twitter.com/collectionist" target="_blank"><i class="fi flaticon-social"></i></a></li>
-                            <li><a href="https://www.linkedin.com/in/jehan-chu-637101" target="_blank"><i class="fi flaticon-social-media"></i></a></li>
-                          </ul>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
+               					<div class="container brief-team">
+          							<div class="row brief-team-wrapper">
+          								<div class="col-md-12 team-wrap">
+						                    <div class="col-md-4 col-sm-6 brief-team-box">
+						                        <img src="src/img/team/reto.png">
+						                        <div class="brief-team-text">
+						                        	<h3>Reto Trinkler</h3>
+						                        	<h6>{{{i18n 'pages.firm.tabteam.team.reto.title'}}}</h6>
+						                        	<p>{{{i18n 'pages.firm.tabteam.team.reto.bio'}}}</p>
+						                        	<ul class="team-box-social">
+						                            	<li><a href="https://github.com/retotrinkler" target="_blank"><i class="fi flaticon-circle-1"></i></a></li>
+						                            	<li><a href="https://twitter.com/reto_trinkler" target="_blank"><i class="fi flaticon-social"></i></a></li>
+						                            	<li><a href="https://ch.linkedin.com/in/reto-trinkler-170a78106/en" target="_blank"><i class="fi flaticon-social-media"></i></a></li>
+						                        	</ul>
+						                        </div>
+						                    </div>
+						                    <div class="col-md-4 col-sm-6 brief-team-box">
+						                        <img src="src/img/team/mona.png">
+						                        <div class="brief-team-text">
+						                          	<h3>Mona El Isa</h3>
+						                          	<h6>{{{i18n 'pages.firm.tabteam.team.mona.title'}}}</h6>
+						                          	<p>{{{i18n 'pages.firm.tabteam.team.mona.bio'}}}</p>
+						                          	<ul class="team-box-social">
+						                            	<li><a href="https://github.com/perhamgirl" target="_blank"><i class="fi flaticon-circle-1"></i></a></li>
+						                            	<li><a href="https://twitter.com/perham83" target="_blank"><i class="fi flaticon-social"></i></a></li>
+						                            	<li><a href="https://ch.linkedin.com/in/mona-el-isa-3a653526" target="_blank"><i class="fi flaticon-social-media"></i></a></li>
+						                          	</ul>
+						                        </div>
+						                    </div>
+						                    <div class="col-md-4 col-sm-6 brief-team-box">
+						                        <img src="src/img/team/george.png">
+						                        <div class="brief-team-text">
+						                          	<h3>George Hallam</h3>
+						                          	<h6>{{{i18n 'pages.firm.tabteam.team.george.title'}}}</h6>
+						                          	<p>{{{i18n 'pages.firm.tabteam.team.george.bio'}}}</p>
+						                          	<ul class="team-box-social">
+						                            	<li><a href="https://github.com/thehighfiveghost" target="_blank"><i class="fi flaticon-circle-1"></i></a></li>
+						                            	<li><a href="https://twitter.com/GeorgeAHallam" target="_blank"><i class="fi flaticon-social"></i></a></li>
+						                            	<li><a href="https://www.linkedin.com/in/george-hallam-a5002979/" target="_blank"><i class="fi flaticon-social-media"></i></a></li>
+						                          	</ul>
+						                        </div>
+						                    </div>
+						                    <div class="col-md-4 col-sm-6 brief-team-box">
+						                        <img src="src/img/team/ahmad.png">
+						                        <div class="brief-team-text">
+						                          	<h3>Ahmad S. Afandi</h3>
+						                          	<h6>{{{i18n 'pages.firm.tabteam.team.ahmad.title'}}}</h6>
+						                          	<p>{{{i18n 'pages.firm.tabteam.team.ahmad.bio'}}}</p>
+						                          	<ul class="team-box-social">
+						                            	<li><a href="https://github.com/peterdraw" target="_blank"><i class="fi flaticon-circle-1"></i></a></li>
+						                            	<li><a href="https://twitter.com/peterdraw" target="_blank"><i class="fi flaticon-social"></i></a></li>
+						                            	<li><a href="https://id.linkedin.com/in/ahmad-syarif-afandi" target="_blank"><i class="fi flaticon-social-media"></i></a></li>
+						                          	</ul>
+						                        </div>
+						                    </div>
+						                    <div class="col-md-4 col-sm-6 brief-team-box">
+						                        <img src="src/img/team/jenna.jpg">
+						                        <div class="brief-team-text">
+						                          	<h3>Jenna Zenk</h3>
+						                          	<h6>{{{i18n 'pages.firm.tabteam.team.jenna.title'}}}</h6>
+						                          	<p>{{{i18n 'pages.firm.tabteam.team.jenna.bio'}}}</p>
+						                          	<ul class="team-box-social">
+						                            	<li><a href="https://github.com/jennazenk" target="_blank"><i class="fi flaticon-circle-1"></i></a></li>
+						                            	<li><a href="https://twitter.com/jennaszenk" target="_blank"><i class="fi flaticon-social"></i></a></li>
+						                            	<li><a href="https://www.linkedin.com/in/jenna-zenk-72545266/" target="_blank"><i class="fi flaticon-social-media"></i></a></li>
+						                          	</ul>
+						                        </div>
+						                    </div> 
+						                    <div class="col-md-4 col-sm-6 brief-team-box">
+						                        <img src="src/img/team/simon.jpg">
+						                        <div class="brief-team-text">
+						                          	<h3>Simon Schmid</h3>
+						                          	<h6>{{{i18n 'pages.firm.tabteam.team.simon.title'}}}</h6>
+						                          	<p>{{{i18n 'pages.firm.tabteam.team.simon.bio'}}}</p>
+						                          	<ul class="team-box-social">
+						                            	<li><a href="https://github.com/schmidsi" target="_blank"><i class="fi flaticon-circle-1"></i></a></li>
+						                            	<li><a href="https://twitter.com/schmid_si" target="_blank"><i class="fi flaticon-social"></i></a></li>
+						                            	<li><a href="https://www.linkedin.com/in/simonschmidzh/" target="_blank"><i class="fi flaticon-social-media"></i></a></li>
+						                          	</ul>
+						                        </div>
+						                    </div>
+                    					</div>
+                  					</div>
+                				</div>
+				                <div class="container brief-team">
+				          			<div class="row brief-team-wrapper">
+				          				<div class="col-md-12">
+				          					<h2 class="about-title">{{{i18n 'pages.firm.tabteam.advisors.title'}}}</h2>
+				          				</div>
+					          			<div class="col-md-12 team-wrap brief-team">
+						                    <div class="col-md-4 col-sm-6 brief-team-box">
+						                        <img src="src/img/team/gavin.png">
+						                        <div class="brief-team-text">
+						                          	<h3>Dr Gavin Wood</h3>
+						                          	<h6>{{{i18n 'pages.firm.tabteam.advisors.gavin.title'}}}</h6>
+						                          	<p>{{{i18n 'pages.firm.tabteam.advisors.gavin.bio'}}}</p>
+						                          	<ul class="team-box-social">
+						                            	<li><a href="https://github.com/gavofyork" target="_blank"><i class="fi flaticon-circle-1"></i></a></li>
+						                            	<li><a href="https://twitter.com/gavofyork" target="_blank"><i class="fi flaticon-social"></i></a></li>
+						                            	<li><a href="https://uk.linkedin.com/in/gavin-wood-88843316" target="_blank"><i class="fi flaticon-social-media"></i></a></li>
+						                          	</ul>
+						                        </div>
+						                    </div>
+						                    <div class="col-md-4 col-sm-6 brief-team-box">
+						                        <img src="src/img/team/andreas.png">
+						                        <div class="brief-team-text">
+						                          	<h3>Dr. Andreas Glarner</h3>
+						                          	<h6>{{{i18n 'pages.firm.tabteam.advisors.andreas.title'}}}</h6>
+						                          	<p>{{{i18n 'pages.firm.tabteam.advisors.andreas.bio'}}}</p>
+						                          	<ul class="team-box-social">
+						                            	<li><a href="https://twitter.com/mme_switzerland" target="_blank"><i class="fi flaticon-social"></i></a></li>
+						                            	<li><a href="https://www.linkedin.com/in/andreas-glarner-49b78b16" target="_blank"><i class="fi flaticon-social-media"></i></a></li>
+						                          	</ul>
+						                        </div>
+						                    </div>
+						                    <div class="col-md-4 col-sm-6 brief-team-box">
+						                        <img src="src/img/team/jehan.png">
+						                        <div class="brief-team-text">
+						                          	<h3>Jehan Chu</h3>
+						                          	<h6>{{{i18n 'pages.firm.tabteam.advisors.jehan.title'}}}</h6>
+						                          	<p>{{{i18n 'pages.firm.tabteam.advisors.jehan.bio'}}}</p>
+						                          	<ul class="team-box-social">
+						                            	<li><a href="https://twitter.com/collectionist" target="_blank"><i class="fi flaticon-social"></i></a></li>
+						                            	<li><a href="https://www.linkedin.com/in/jehan-chu-637101" target="_blank"><i class="fi flaticon-social-media"></i></a></li>
+						                          	</ul>
+						                        </div>
+						                    </div>
+					                    </div>
+				                  	</div>
+				                </div>
 							</div>
 						</div>
 					</div>
 
-      		<div role="tabpanel" class="tab-pane" id="careers">
-      			<div class="mp-about-main">
-      				<div class="content-about-wrapper" id="content-careers">
-      					<div class="container-fluid careers">
-      						<div class="container">
-      							<div class="row">
-      								<div class="col-md-12 careers-wrapper">
-      									<div class="careers-title">
-      										<h2 class="about-title">{{{i18n 'pages.firm.careers.title'}}}</h2>
-                          <p>{{{i18n 'pages.firm.careers.intro'}}}</p>
-      									</div>
-                        <div class="row careers-box-wrapper">
-          								<div class="col-md-4 col-md-offset-2 col-sm-6">
-          									<div class="careers-box">
-          										<h2>Front-End Developer</h2>
-          										<p class="loc"><i class="ion-ios-location-outline"></i> Zug, Switzerland</p>
-          										<p class="desc">Melonport is looking for a Front-End Developer proficient in Meteor and Blaze, knowledge in React or Angular2 beneficial. Get involved by improving <a href='https://github.com/melonproject' class="link-text" target='_blank'>our code on Github</a>.</p>
-          										<a href="mailto:team@melonport.com?subject=Apply for Front-End Developer Position" target="_top" class="btn btn-outline-blue">Apply Now</a>
-          									</div>
-          								</div>
-          								<div class="col-md-4 col-sm-6">
-          									<div class="careers-box">
-          										<h2>Smart-Contract Developer</h2>
-          										<p class="loc"><i class="ion-ios-location-outline"></i> Zug, Switzerland</p>
-          										<p class="desc">Melonport is looking for a smart contract developer. Get involved by improving <a href='https://github.com/melonproject' class="link-text" target='_blank'>our code on Github</a>.</p>
-                              <a href="mailto:team@melonport.com?subject=Apply for Smart-Contract Developer Position" target="_top" class="btn btn-outline-blue">Apply Now</a>
-          									</div>
-          								</div>
-          							</div>
+      				<div role="tabpanel" class="tab-pane" id="careers">
+      					<div class="mp-about-main">
+      						<div class="content-about-wrapper" id="content-careers">
+      							<div class="container-fluid careers">
+      								<div class="container">
+      									<div class="row">
+      										<div class="col-md-12 careers-wrapper">
+      											<div class="careers-title">
+      												<h2 class="about-title">{{{i18n 'pages.firm.careers.title'}}}</h2>
+                          							<p>{{{i18n 'pages.firm.careers.intro'}}}</p>
+      											</div>
+	                        					<div class="row careers-box-wrapper">
+			          								<div class="col-md-4 col-md-offset-2 col-sm-6">
+			          									<div class="careers-box">
+			          										<h2>Front-End Developer</h2>
+			          										<p class="loc"><i class="ion-ios-location-outline"></i> Zug, Switzerland</p>
+			          										<p class="desc">Melonport is looking for a Front-End Developer proficient in Meteor and Blaze, knowledge in React or Angular2 beneficial. Get involved by improving <a href='https://github.com/melonproject' class="link-text" target='_blank'>our code on Github</a>.</p>
+			          										<a href="mailto:team@melonport.com?subject=Apply for Front-End Developer Position" target="_top" class="btn btn-outline-blue">Apply Now</a>
+			          									</div>
+			          								</div>
+			          								<div class="col-md-4 col-sm-6">
+			          									<div class="careers-box">
+			          										<h2>Smart-Contract Developer</h2>
+			          										<p class="loc"><i class="ion-ios-location-outline"></i> Zug, Switzerland</p>
+			          										<p class="desc">Melonport is looking for a smart contract developer. Get involved by improving <a href='https://github.com/melonproject' class="link-text" target='_blank'>our code on Github</a>.</p>
+			                              					<a href="mailto:team@melonport.com?subject=Apply for Smart-Contract Developer Position" target="_top" class="btn btn-outline-blue">Apply Now</a>
+			          									</div>
+			          								</div>
+	          									</div>
 											</div>
 										</div>
 									</div>
 								</div>
 								<div class="container-fluid benefit">
-                  <div class="container">
-  									<div class="row">
-  										<div class="col-md-10 col-md-offset-1">
-  											<h4 class="sub-about-title">Benefits</h4>
-  											<div class="row benefit-box-wrapper">
-  												<div class="col-md-3 col-sm-6 benefit-box">
-  													<span class="benefit-box-icon"><i class="fi flaticon-circle"></i></span>
-  													<div class="benefit-box-text">
-                              <p>Work with the team to build one of the most transformational softwares in asset management.</p>
-  													</div>
+                  					<div class="container">
+  										<div class="row">
+  											<div class="col-md-10 col-md-offset-1">
+  												<h4 class="sub-about-title">Benefits</h4>
+  												<div class="row benefit-box-wrapper">
+	  												<div class="col-md-3 col-sm-6 benefit-box">
+	  													<span class="benefit-box-icon"><i class="fi flaticon-circle"></i></span>
+	  													<div class="benefit-box-text">
+	                              						<p>Work with the team to build one of the most transformational softwares in asset management.</p>
+	  													</div>
+	  												</div>
+			            							<div class="col-md-3 col-sm-6 benefit-box">
+			            								<span class="benefit-box-icon"><i class="fi flaticon-circle"></i></span>
+			            								<div class="benefit-box-text">
+			            								<p>Learning Fridays - participate in a firm-wide day dedicated to simply “learning”</p>
+			            								</div>
+			            							</div>
+			            							<div class="col-md-3 col-sm-6 benefit-box">
+			            								<span class="benefit-box-icon"><i class="fi flaticon-circle"></i></span>
+			            								<div class="benefit-box-text">
+			            								<p>Be a part of a great work environment</p>
+			            								</div>
+			            							</div>
+			            							<div class="col-md-3 col-sm-6 benefit-box">
+			            								<span class="benefit-box-icon"><i class="fi flaticon-circle"></i></span>
+			            								<div class="benefit-box-text">
+			            								<p>Equity and/or token in addition to an excellent salary</p>
+			            								</div>
+			            							</div>
   												</div>
-            							<div class="col-md-3 col-sm-6 benefit-box">
-            								<span class="benefit-box-icon"><i class="fi flaticon-circle"></i></span>
-            								<div class="benefit-box-text">
-            									<p>Learning Fridays - participate in a firm-wide day dedicated to simply “learning”</p>
-            								</div>
-            							</div>
-            							<div class="col-md-3 col-sm-6 benefit-box">
-            								<span class="benefit-box-icon"><i class="fi flaticon-circle"></i></span>
-            								<div class="benefit-box-text">
-            									<p>Be a part of a great work environment</p>
-            								</div>
-            							</div>
-            							<div class="col-md-3 col-sm-6 benefit-box">
-            								<span class="benefit-box-icon"><i class="fi flaticon-circle"></i></span>
-            								<div class="benefit-box-text">
-            									<p>Equity and/or token in addition to an excellent salary</p>
-            								</div>
-            							</div>
   											</div>
   										</div>
-  									</div>
 									</div>
 								</div>
 								<div class="container">
@@ -270,16 +282,16 @@
 					<div role="tabpanel" class="tab-pane" id="purpose">
 						<div class="mp-about-main">
 							<div class="content-about-wrapper" id="content-purpose">
-                <div class="container">
-  								<div class="row">
-  									<div class="col-md-12 purpose-wrapper">
-                      <div class="purpose-title">
-                        <h2 class="about-title">{{{i18n 'pages.firm.purpose.title'}}}</h2>
-                        <p>{{{i18n 'pages.firm.purpose.intro'}}}</p>
-                      </div>
-  									</div>
+                				<div class="container">
+	  								<div class="row">
+	  									<div class="col-md-12 purpose-wrapper">
+					                    	<div class="purpose-title">
+					                        	<h2 class="about-title">{{{i18n 'pages.firm.purpose.title'}}}</h2>
+					                        	<p>{{{i18n 'pages.firm.purpose.intro'}}}</p>
+					                    	</div>
+	  									</div>
+	  								</div>
   								</div>
-  							</div>
 							</div>
 						</div>
 					</div>
@@ -287,5 +299,4 @@
 			</div>
 		</div>
 	</section>
-
 </template>
