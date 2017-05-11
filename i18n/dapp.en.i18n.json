@@ -2,28 +2,28 @@
   "pages": {
     "landing": {
       "title": "Blockchain Software for Asset Management",
-      "subtitle": "Building multichain capable software for wealth preservation with Melonport",
+      "subtitle": "Built on the Ethereum Platform",
       "newsletter": "Subscribe to Our Newsletter",
       "count": {
         "one": {
-          "title": "$12.0B",
-          "subtitle": "Over Worth in Digital Asset Market"
+          "title": "$15.0B",
+          "subtitle": "Total market capitalisation of the digital asset market today"
         },
         "two": {
-          "title": "+120",
-          "subtitle": "Coins, Tokens and Cryptoassets"
+          "title": "+700",
+          "subtitle": "Coins, Tokens and Cryptoassets currently in existence, spread across a multitude of unconnected platforms"
         },
         "three": {
           "title": "1st",
-          "subtitle": "Lower Your Cost & Grow Your Reputation"
+          "subtitle": "One of the best performing asset classes over the last few years"
         }
       },
       "about": {
         "title": "About Melonport",
-        "subtitle": "Melonport is the private company behind Melon. Melon is building multichain capable software for asset management",
+        "subtitle": "Melonport is the private company building the open-source Melon Protocol. The Melon protocol is a blockchain protocol for digital asset management built on the <a href='https://ethereum.org/'>Ethereum</a> platform. It enables participants to set up, manage and invest in digital asset management strategies in an open, competitive and decentralised manner. Read the Melon Protocol <a href='https://github.com/melonproject/greenpaper/blob/master/melonprotocol.pdf'>Green Paper</a> for a full detailed description of how it will empower its users and evolve digital asset management.",
         "open": {
           "title": "Open-source and Transparent",
-          "subtitle": "Melon is an open-source project building multichain capable software. Asset management track-records are transparent and auditable by everyone everywhere at any time."
+          "subtitle": "Asset management track-records are transparent and auditable by everyone everywhere at any time. Easily grow and share your reputation in the asset management space."
         },
         "modular": {
           "title": "Modular and Inclusive",
@@ -51,8 +51,8 @@
                 b) Create an Ethereum Address"
             },
             "two": {
-              "label": "2. Using Mist",
-              "paragraph": "a) Install and run <a href='https://github.com/ethereum/mist/releases/tag/v0.8.8'>Mist</a> and<br/>
+              "label": "2. Using Parity/Mist",
+              "paragraph": "a) Install and run <a href='https://ethcore.io/parity.html'>Parity</a> and/or <a href='https://github.com/ethereum/mist/releases/tag/v0.8.8'>Mist</a> and<br/>
                 b) Create an Ethereum Address"
             }
           }
@@ -70,13 +70,13 @@
             },
             "two": {
               "label": "2. Using fiat currencies",
-              "paragraph": "a) For non-technical people it is recommeneded to use <a href='https://www.bitcoinsuisse.ch/en/index/' target='_blank'>BitcoinSuisse</a> <br/>
+              "paragraph": "a) We recommend to use <a href='https://www.bitcoinsuisse.ch/melon-project-contribution/' target='_blank'>BitcoinSuisse</a> <br/>
                 which can allocate your fiat currencies to Melon on your behalf. <br/>
                 b) Or use a centralized exchange to convert your fiat currencies into Ether"
             }
           }
         },
-        "contribute": {
+        "portal": {
           "title": "03. Contribute",
           "subtitle": "Contribute to the future of finance",
           "description": {
@@ -94,7 +94,10 @@
         }
       },
       "partner": {
-        "title": "Our Corporate Partners"
+        "title": "Corporate Partners"
+      },
+      "module": {
+        "title": "Ecosystem Partners"
       },
       "video": {
         "title": "Melonport",
@@ -102,30 +105,61 @@
       }
     },
     "learn": {
-      "title": "About Melon"
+      "title": "About Melon",
+      "video": {
+        "title": "The Melon Protocol"
+      }
     },
     "firm": {
       "title": "About Melonport",
-      "brief": {
-        "tabtitle": "brief",
-        "intro": "Founded in 2016, Melonport AG is building Melon, a blockchain software for asset management. We’re based in beautiful Zug, Switzerland - in the heart of Crypto Valley one of the leading hubs for blockchain minds and technology.",
+      "values": {
+        "tabtitle": "values",
+        "title": "Values",
+        "intro": "Founded in 2016, Melonport AG is building Melon, a blockchain software for asset management. We’re based in beautiful Zug, Switzerland - in the heart of Crypto Valley one of the leading hubs for blockchain minds and technology."
+      },
+      "tabteam": {
+        "tabtitle": "team",
+        "title": "Meet Our Team",
+        "intro": "We're a community of builders, engineers, designers, and entrepreneurs - who love what we do.",
         "team" : {
-          "title": "Meet Our Team",
           "reto": {
-            "title": "Co-Founder",
+            "title": "Chairman/CTO",
             "bio": "Blockchain developer with background in mathematics from ETH Zurich. He started developing Ethereum smart contracts immediately after their launch in 2015. He worked as a smart-contract developer at Brainbot Technologies (which is building the high-speed Raiden Network) and is host of Zurich's Blockchain Hacklab. Before this Reto developed a profitable trading algorithm for sport betting exchanges in C++."
           },
           "mona": {
-            "title": "Co-Founder",
+            "title": "CEO",
             "bio": "Former star-trader at Goldman Sachs, promoted to Vice President by the age of 26 and made the “top 30 under 30” list in Trader Magazine in 2008 and Forbes Magazine in 2011 after profitably trading the 2008 and 2011 crashes. Moved to Geneva-based macro fund Jabre Capital in 2011, before deciding in 2014 that the future of finance lay in blockchain technology. She studied Economics & Statistics at the University College London."
           },
+          "george": {
+            "title": "Head of Business Development",
+            "bio": "George joined Ethereum as Business & Partnership Director in Mid 2014. He quickly established himself as a key communicator, moving to the role of Head of External Relations where he successfully advocated the Ethereum platform to the world and coordinated the Ethereum Foundation’s yearly developer conferences in London and Shanghai. During his 2 years at the Ethereum Foundation, George grew a strong appreciation and understanding of the Ethereum community and the ecosystem it inhabits."
+          },
+          "ahmad":{
+            "title": "Head of Design",
+            "bio": "Passionate UI / UX Designer with a background in Computer Science at UIN Yogyakarta. Experienced in web and mobile design for more than 4 years with a strong focus on unique designs and customer experience. In 2012, he has built a non-profit platform for book lovers, to share books among each others, in Indonesia called lendabook.co. lendabook.co led to winning of the World Summit Youth Award 2013 organized by ICTA."
+          },
+          "jenna":{
+            "title": "Front-end Developer",
+            "bio": "Software engineer with extensive background in finance and experience in asset management. Worked in hedge funds both in Paris and New York between 2014 and 2016. Her keen interest in the Ethereum ecosystem got her into programming. She started learning full stack javascript at Fullstack Academy of Code in New York, before diving deeper into decentralized apps development. She studied at ESCP Europe in Paris and completed a master in management and financial engineering."
+          },
+          "simon":{
+            "title": "Senior Developer",
+            "bio": "Simon worked for more than 10 years as a Full Stack Software Engineer where he gained a profound and extensive knowledge on how to develop user interfaces that are fascinating and comprehensible to use. His enthusiasm for programming got him building several digital products and in 2014 co-founded a startup where he gained entrepreneurial experiences on how to design amazing digital products. If he is not reasoning about simplicity of interfaces, he follows his other passion expressing his creativity as a DJ and music producer."
+          }
+        },
+        "advisors" : {
+          "title": "Meet Our Advisors",
           "gavin": {
-            "title": "Advisor",
-            "bio": "Co-founder and CTO of Ethereum and now head of EthCore, one of the top providers of blockchain-powered enterprise solutions and developer of the Parity client. He coded Ethereum's first functional implementation, wrote the Yellow Paper (first formal specification of a blockchain protocol) and invented the Solidity language. Studied software engineering at University of York. Specializes in C++ and holds lifelong interest in game theory."
+            "title": "Technical Advisor",
+            "bio": "Co-founder and CTO of Ethereum and now head of EthCore, one of the top providers of blockchain-powered enterprise solutions and developer of the Parity client. Dr. Gavin Wood coded Ethereum's first functional implementation, wrote the Yellow Paper (first formal specification of a blockchain protocol) and invented the Solidity language. Studied software engineering at University of York. Specializes in C++ and holds lifelong interest in game theory."
           },
           "jehan": {
-            "title": "Advisor",
+            "title": "Strategic Advisor",
             "bio": "Jehan Chu is a partner at Jen Advisors, a Hong Kong based early-stage Blockchain VC firm. He has been a Blockchain evangelist since 2013, is the founder of the Ethereum HK meetup, Hyperledger HK meetup, and a founding member of the Bitcoin Association of Hong Kong. Jehan is a Google EYE Program Mentor, Vice Chairman of Para Site, Board Member of Design Trust, and Technology Committee of the Asia Art Archive."
+          },
+          "andreas": {
+            "title": "Legal Advisor",
+            "bio": "Dr. Andreas Glarner, LL.M., is a Partner of MME Legal Tax Compliance, Switzerland and part of MME’s Crypto Team. Andreas has extensive expertise in fintech and blockchain technology, gaming services, e-payments and IP/IT law. He has been involved in various blockchain projects since 2013 and advises exchanges, gateways, wallet service providers, IOT projects and many other distributed ledger projects. Andreas Glarner advises both on contractual as well as on regulatory matters and is in this context in regular contact with the Swiss Financial Market Authorities (FINMA)."
           }
         }
       },
@@ -137,7 +171,7 @@
       "purpose": {
         "tabtitle": "purpose",
         "title": "Purpose",
-        "intro": "Melon derives its name from the Greek word for “future”. We feel this is fitting for a software that we believe will dramatically reduce the barriers to entry and improve the inefficiencies experienced in the asset management space. Our purpose is to build a software for asset management that is fair and equal to all. The enables as many people as possible to be the next George Soros."
+        "intro": "Melon derives its name from the Greek word for “future”. We feel this is fitting for a software that we believe will dramatically reduce the barriers to entry and improve the inefficiencies experienced in the asset management space. Our purpose is to build software that enables people to easily interact with the digital asset space in a way that is fair and equal to all."
       }
     }
   },
@@ -145,14 +179,16 @@
     "header": {
       "learn": "Learn",
       "firm": "Firm",
-      "contribute": "Contribute",
+      "about": "About",
+      "portal": "Portal",
       "english": "English",
       "korean": ""
     },
     "footer": {
       "learn": "Learn",
       "firm": "Firm",
-      "contribute": "Contribute",
+      "portal": "Portal",
+      "about": "About",
       "copyright": "Copyright © 2017. All Right Reserved"
     }
   }

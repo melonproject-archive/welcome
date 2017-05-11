@@ -16,9 +16,11 @@
 		<div class="container-fluid">
 			<div class="row">
 				<ul class="nav nav-tabs nav-work" role="tablist">
-					<li role="presentation" class="active"><a href="learn#t_contribution" aria-controls="t_contribution" role="tab" data-toggle="tab">contribution</a></li>
+					<li role="presentation" class="active"><a href="learn#t_contribution" aria-controls="t_contribution" role="tab" data-toggle="tab">The Melon Ecosystem</a></li>
 					<li role="presentation"><a href="learn#t_protocol" aria-controls="t_protocol" role="tab" data-toggle="tab">protocol</a></li>
-					<li role="presentation"><a href="learn#t_portal" aria-controls="t_portal" role="tab" data-toggle="tab">portal</a></li>
+          <li role="presentation"><a href="learn#t_portal" aria-controls="t_portal" role="tab" data-toggle="tab">portal</a></li>
+          <li role="presentation"><a href="learn#t_contribute" aria-controls="t_contribute" role="tab" data-toggle="tab">How to contribute</a></li>
+					<li role="presentation"><a href="learn#t_event" aria-controls="t_event" role="tab" data-toggle="tab">upcoming workshops</a></li>
 				</ul>
 
 				<div class="tab-content content-work">
@@ -29,7 +31,7 @@
                 <img src="dist/img/graph.png">
 								<p>
                   Our usage token is called Melon token [MLN] and is a core component of the Melon project. It is designed to enjoy a “usage right” to the Melon protocol.
-                  To use the Melon protocol one has to use MLN token. This “usage fee” will most likely be imposed on trading.
+                  To use the Melon protocol one has to use MLN token.
                 </p>
                 <p>
                   All MLN token that are paid by Users to access Melon will go into a smart contract called a “Multichain fund”.
@@ -49,7 +51,30 @@
 							<div class="col-md-12 text-center">
                 <h2 class="about-title">Melon Protocol</h2>
                 <p>The Melon protocol allows digital asset managers to use blockchain technology to automate a lot of processes using code embedded in smart contracts.</p>
-                <br/>
+                <section class="mp-video-protocol protocol-vid">
+                  <div class="container">
+                    <div class="row">
+                      <div class="col-md-12 text-center protocol-vid-text">
+                        <h2>{{{i18n 'pages.learn.video.title'}}}</h2>
+                        <a data-toggle="modal" data-target="#myModal">
+                          <i class="fi flaticon-arrows"></i>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </section>
+                <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                  <div class="modal-dialog modal-video" role="document">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                      </div>
+                      <div class="modal-body">
+                        <iframe width="100%" height="315" src="https://www.youtube.com/embed/Xz_nOzWL46c" frameborder="0" allowfullscreen></iframe>
+                      </div>
+                    </div>
+                  </div>
+                </div>
                 <a href="https://github.com/melonproject/greenpaper/blob/master/melonprotocol.pdf" class="btn btn-light-blue">READ OUR GREENPAPER</a>
 							</div>
 						</div>
@@ -59,7 +84,28 @@
 							<div class="col-md-12 text-center">
                 <h2 class="about-title">Melon Portal</h2>
                 <p>The Melon portal is an interface or portal to the Melon protocol. Its main objective is to make the interactions with the Melon protocol as easy as possible.</p>
-                <p>Contact us to become an early tester of the portal.<br/>Email: <strong>admin@melonport.com</strong></p>
+                <br/>
+                <a href="https://portal.melonport.com" class="btn btn-light-blue">VISIT OUR PORTAL</a>
+							</div>
+						</div>
+					</div>
+          <div role="tabpanel" class="container tab-pane" id="t_contribute">
+						<div class="row">
+							<div class="col-md-12 text-center">
+                <h2 class="about-title">How to Contribute</h2>
+                <p></p>
+                <br/>
+                <a href="https://github.com/melonproject" class="btn btn-light-blue">VISIT OUR GITHUB</a>
+							</div>
+						</div>
+					</div>
+          <div role="tabpanel" class="container tab-pane" id="t_event">
+						<div class="row">
+							<div class="col-md-12 text-center">
+                <h2 class="about-title">Attend Our Upcoming Workshops</h2>
+                <!-- <p></p>
+                <br/>
+                <a href="https://github.com/melonproject" class="btn btn-light-blue">VISIT OUR GITHUB</a> -->
 							</div>
 						</div>
 					</div>

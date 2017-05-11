@@ -31,6 +31,18 @@ FlowRouter.route('/about', {
   },
 });
 
+// Redirect /team to about page for goole search results
+FlowRouter.route('/team', {
+  name: 'about',
+  action() {
+    BlazeLayout.render('layout_main', {
+      nav: 'layout_header',
+      main: 'about',
+      footer: 'layout_footer',
+    });
+  },
+});
+
 FlowRouter.route('/learn', {
   name: 'learn',
   action() {

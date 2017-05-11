@@ -1,0 +1,56 @@
+// screen default
+$screen-xs:                  480px !default;
+$screen-xs-min:              $screen-xs !default;
+$screen-sm:                  768px !default;
+$screen-sm-min:              $screen-sm !default;
+$screen-md:                  992px !default;
+$screen-md-min:              $screen-md !default;
+$screen-ipad:                1024px !default;
+$screen-ipad-min:            $screen-ipad !default;
+$screen-lg:                  1200px !default;
+$screen-lg-min:              $screen-lg !default;
+
+$screen-xs-max:              ($screen-sm-min - 1) !default;
+$screen-sm-max:              ($screen-md-min - 1) !default;
+$screen-md-max:              ($screen-lg-min - 1) !default;
+
+html, body{
+	width: 100%;
+	height: 100%;
+	min-height: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+ul{
+	list-style: none;
+	padding-left: 0;
+	margin-bottom: 0;
+}
+
+a{
+	color: $white;
+	&:hover, &:focus{
+		text-decoration: none;
+	}
+}
+
+input, textarea{
+	box-shadow: none !important;
+	&:focus{
+		border-color: $border-input !important;
+		box-shadow: none !important;
+	}
+}
+
+.form-white{
+	border: 0;
+	height: 50px;
+	padding: 6px 20px;
+	font-size: $font-size-micro;
+}
+.form-textarea-white{
+	border: 0;
+	font-size: $font-size-micro;
+	padding: 15px 20px;
+}

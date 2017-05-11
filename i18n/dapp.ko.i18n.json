@@ -51,8 +51,8 @@
                 b) Create an Ethereum Address"
             },
             "two": {
-              "label": "2. Using Mist",
-              "paragraph": "a) Install and run <a href='https://github.com/ethereum/mist/releases/tag/v0.8.8'>Mist</a> and<br/>
+              "label": "2. Using Parity/Mist",
+              "paragraph": "a) Install and run <a href='https://ethcore.io/parity.html'>Parity</a> and/or <a href='https://github.com/ethereum/mist/releases/tag/v0.8.8'>Mist</a> and<br/>
                 b) Create an Ethereum Address"
             }
           }
@@ -70,13 +70,13 @@
             },
             "two": {
               "label": "2. Using fiat currencies",
-              "paragraph": "a) For non-technical people it is recommeneded to use <a href='https://www.bitcoinsuisse.ch/en/index/' target='_blank'>BitcoinSuisse</a> <br/>
+              "paragraph": "a) We recommend to use <a href='https://www.bitcoinsuisse.ch/melon-project-contribution/' target='_blank'>BitcoinSuisse</a> <br/>
                 which can allocate your fiat currencies to Melon on your behalf. <br/>
                 b) Or use a centralized exchange to convert your fiat currencies into Ether"
             }
           }
         },
-        "contribute": {
+        "portal": {
           "title": "03. Contribute",
           "subtitle": "Contribute to the future of finance",
           "description": {
@@ -145,14 +145,14 @@
     "header": {
       "learn": "",
       "firm": "",
-      "contribute": "",
+      "portal": "",
       "english": "English",
       "korean": ""
     },
     "footer": {
       "learn": "",
       "firm": "",
-      "contribute": "",      
+      "portal": "",
       "copyright": ""
     }
   }

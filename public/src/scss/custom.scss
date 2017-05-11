@@ -18,6 +18,9 @@ $fullwidth : 100%;
 	margin-bottom: $spacing-lg;
 	font-size: $font-size-normal;
 	font-weight: $font-weight-regular;
+  a{
+    color: $light-blue;
+  }
 }
 .contrib-title{
 	color: $grey-title;
@@ -368,9 +371,83 @@ $fullwidth : 100%;
 		}
 	}
 }
+.mp-partner .mp-partner-wrapper .mp-partner-list ul li{
+  padding: 10px 26px !important;
+}
+
+// module section
+.mp-module{
+	background: $white;
+  border-top: 1px solid #eee;
+	margin: $spacing-md 0;
+	.mp-module-wrapper{
+		padding: $spacing-md 0;
+		.mp-module-title{
+			h4{
+				font-weight: $font-weight-regular;
+				color: $par-grey;
+				padding-top: 10px;
+			}
+		}
+		.mp-module-list{
+			text-align: left;
+			ul{
+				li{
+					display: inline-block;
+					padding: $spacing-sm $spacing-lg - $spacing-sm;
+					img{
+						max-height: 50px;
+					}
+				}
+			}
+		}
+	}
+}
+.module-name{
+  font-size: 20px;
+  color:#b0b0b0;
+  margin-left: 10px;
+  font-weight: 100;
+}
+.mp-module .mp-module-wrapper .mp-module-list ul li{
+  padding: 10px 26px !important;
+}
+
 // video section
 .mp-video{
 	background: url('../img/bgr_video.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: 50% 50%;
+	height: 420px;
+	padding: $spacing-lg * 2 0;
+	h2{
+		color: $white;
+		font-size: $font-size-venti - 3;
+		font-weight: $font-weight-regular;
+	}
+	h5{
+		color: $white;
+		font-weight: $font-weight-regular;
+		font-size: $font-size-grande - 3;
+		margin-top: $spacing-sm;
+		margin-bottom: $spacing-md;
+	}
+	a{
+		cursor: pointer;
+		i{
+			color: $light-blue;
+			font-size: $font-size-venti;
+		}
+		&:hover{
+			i{
+				color: darken($light-blue, 10%);
+			}
+		}
+	}
+}
+.mp-video-protocol{
+	background: url('../img/protocol_video.png');
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: 50% 50%;
@@ -668,6 +745,162 @@ $fullwidth : 100%;
 			}
 			.content-about-wrapper{
 				padding: $spacing-lg $spacing-lg + $spacing-md;
+        &#content-team{
+          .team-title{
+            p{
+              font-size: $font-size-normal;
+              text-align: center;
+              color: $par-grey;
+              margin-bottom: 5px;
+              padding: 20px 100px;
+              font-weight: 400;
+            }
+          }
+          .brief-team{
+						padding: $spacing-lg $spacing-lg 0;
+						.brief-team-wrapper{
+							.sub-about-title{
+								margin-bottom: $spacing-lg;
+							}
+							.brief-team-box{
+                margin-bottom: $spacing-lg;
+								img{
+									width: 100%;
+									height: 337px;
+									object-fit: cover;
+									object-position: 50% 50%;
+									border: 1px solid #eeeeee;
+								}
+								.brief-team-text{
+									padding: 0 $spacing-sm;
+									h3{
+										margin: 0;
+										margin-top: $spacing-md;
+										font-weight: $font-weight-semiBold;
+										font-size: $font-size-medium - 2;
+										color: $main;
+										line-height: normal;
+									}
+									h6{
+										margin: 0;
+										font-size: $font-size-small;
+										font-weight: $font-weight-light;
+									}
+									p{
+										color: $par-grey;
+										font-size: $font-size-small;
+										font-weight: $font-weight-regular;
+										height: 100%;
+										margin-top: $spacing-md;
+										margin-bottom: $spacing-md;
+									}
+									ul.team-box-social{
+										li{
+											display: inline-block;
+											a{
+												margin-right: 12px;
+												i{
+													color: $text-grey;
+													font-size: 18px;
+												}
+												&:hover{
+													i{
+														color: darken($text-grey, 10%);
+													}
+												}
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+        }
+
+        &#content-values{
+          .values-wrapper{
+            padding: $spacing-md $spacing-lg $spacing-sm;
+          }
+          .values-title{
+            p{
+              font-size: $font-size-normal;
+              text-align: center;
+              color: $par-grey;
+              margin-bottom: 5px;
+              padding: 20px 100px;
+              font-weight: 400;
+            }
+          }
+					padding: 0;
+					.brief-intro{
+						text-align: center;
+						padding: $spacing-lg $spacing-lg * 3 0;
+						img{
+							width: 60px;
+							height: auto;
+							object-fit: contain;
+							object-position: 50% 50%;
+							margin-bottom: $spacing-lg;
+						}
+						h3{
+							font-size: $font-size-medium;
+							font-weight: $font-weight-regular;
+							color: $par-grey;
+						}
+						p{
+							color: #868686;
+							font-weight: $font-weight-regular;
+							font-size: $font-size-small;
+							padding: $spacing-lg $spacing-lg * 2;
+						}
+					}
+					.brief-count{
+						border-top: 1px solid #cccccc;
+						border-bottom: 1px solid #cccccc;
+						.box-count-wrapper{
+							border-right: 1px solid #cccccc;
+							padding: 30px 40px;
+							&:last-child{
+								border-right: 0;
+							}
+							.box-count{
+								.box-count-icon{
+									display: inline-block;
+									vertical-align: middle;
+									width: 60px;
+									i{
+										font-size: 50px;
+									}
+								}
+								.box-count-text{
+									display: inline-block;
+									vertical-align: middle;
+									p{
+										color: #868686;
+										margin: 0;
+										font-weight: $font-weight-medium;
+										font-size: $font-size-small;
+									}
+									h3{
+										color: $grey-title;
+										font-size: $font-size-grande - 3;
+										font-weight: $font-weight-medium;
+										margin: 0;
+									}
+								}
+							}
+							p{
+								margin-top: $spacing-md;
+								color: #868686;
+								font-size: $font-size-small;
+								font-weight: $font-weight-regular;
+								line-height: 1.7;
+							}
+						}
+					}
+				}
+
+
 				&#content-brief{
 					padding: 0;
 					.brief-intro{
@@ -737,15 +970,16 @@ $fullwidth : 100%;
 						}
 					}
 					.brief-team{
-						padding: $spacing-lg $spacing-lg $spacing-lg * 2;
+						padding: $spacing-lg $spacing-lg 0;
 						.brief-team-wrapper{
 							.sub-about-title{
 								margin-bottom: $spacing-lg;
 							}
 							.brief-team-box{
+                margin-bottom: $spacing-lg;
 								img{
 									width: 100%;
-									height: 260px;
+									height: 337px;
 									object-fit: cover;
 									object-position: 50% 50%;
 									border: 1px solid #eeeeee;
@@ -767,9 +1001,8 @@ $fullwidth : 100%;
 									}
 									p{
 										color: $par-grey;
-										font-size: $font-size-small - 1;
+										font-size: $font-size-small;
 										font-weight: $font-weight-regular;
-										min-height: 310px;
 										height: 100%;
 										margin-top: $spacing-md;
 										margin-bottom: $spacing-md;
@@ -807,6 +1040,8 @@ $fullwidth : 100%;
 									text-align: center;
 									color: $par-grey;
 									margin-bottom: 5px;
+                  padding: 20px 100px;
+                  font-weight: 400;
 								}
 							}
 							.careers-box-wrapper{
@@ -1106,6 +1341,22 @@ $fullwidth : 100%;
 }
 
 // responsive content
+@media (min-width: $screen-sm-min) and (max-width: $screen-sm-max){
+.mp-logo{
+  height: auto;
+  padding-bottom: 40px;
+  margin-bottom: 20px;
+  .mp-logo-wrapper{
+    .mp-logo-box{
+      img{
+        height: 55px;
+        padding-top: $spacing-md + 5;
+      }
+    }
+  }
+}
+}
+
 @media (max-width: $screen-xs-max){
 	.nav-header{
 		height: 64px;
@@ -1242,7 +1493,9 @@ $fullwidth : 100%;
 		}
 	}
 	.mp-logo{
-		height: 95px;
+		height: auto;
+    padding-bottom: 40px;
+    margin-bottom: 20px;
 		.mp-logo-wrapper{
 			.mp-logo-box{
 				img{
@@ -1302,6 +1555,18 @@ $fullwidth : 100%;
 				text-align: center;
 			}
 			.mp-partner-list{
+				text-align: center;
+				display: block;
+			}
+		}
+	}
+  .mp-module{
+		.mp-module-wrapper{
+			padding: $spacing-md 0;
+			.mp-module-title{
+				text-align: center;
+			}
+			.mp-module-list{
 				text-align: center;
 				display: block;
 			}
@@ -1521,6 +1786,7 @@ $fullwidth : 100%;
 								.careers-title{
 									p{
 										font-size: $font-size-small;
+                    padding: $spacing-md $spacing-md;
 									}
 								}
 								.careers-box-wrapper{
@@ -1738,6 +2004,19 @@ and (orientation: landscape){
 @media (min-width: $screen-sm-min)
 and (max-width: $screen-ipad)
 and (orientation: portrait){
+  .mp-module{
+		.mp-module-wrapper{
+			padding: $spacing-md 0;
+			.mp-module-title{
+				text-align: left;
+			}
+			.mp-module-list{
+				text-align: right;
+				display: block;
+        padding-top: 15px;
+			}
+		}
+	}
 	.mp-contrib-hero{
 		.hero-text{
 			h1{
@@ -1953,4 +2232,27 @@ and (orientation: landscape){
 			}
 		}
 	}
+}
+
+.careers, .benefit{
+	background: #fff;
+}
+.mp-about-container .content-about .mp-about-main .content-about-wrapper{
+	padding: 20px 50px 10px;
+}
+.mp-about-container .content-about .mp-about-main .content-about-wrapper#content-careers .join-team{
+	margin:75px 0 50px;
+}
+.link-text{
+	color: #1189c6;
+	font-weight: bold;
+}
+.team-wrap {
+    margin-bottom: $spacing-md !important;
+}
+.protocol-vid{
+  margin-bottom: $spacing-lg;
+}
+.protocol-vid-text{
+  margin-top: $spacing-md;
 }

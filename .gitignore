@@ -1,5 +1,7 @@
 node_modules/
 settings.json
+cert.pem
+chain.pem
 fullchain.pem
 privkey.pem
 mup.js
