@@ -175,6 +175,9 @@
       }
     }
   },
+  "brand":{
+    "title":"Melonport Brand Images"
+  },
   "layout": {
     "header": {
       "learn": "Learn",
@@ -187,6 +190,7 @@
     "footer": {
       "learn": "Learn",
       "firm": "Firm",
+      "brand": "Brand",
       "portal": "Portal",
       "about": "About",
       "copyright": "Copyright © 2017. All Right Reserved"
