@@ -1831,6 +1831,10 @@ $fullwidth : 100%;
 			}
 		}
 	}
+	.brand-content .download-link{
+		padding-top: 10px !important;
+		padding-bottom: 10px !important;
+	}
 }
 @media (max-width: $screen-xs-max)
 and (orientation: portrait){
@@ -2259,4 +2263,40 @@ and (orientation: landscape){
 }
 .protocol-vid-text{
   margin-top: $spacing-md;
+}
+
+//BRAND PAGE
+.brand-sub{
+  font-size: $font-size-medium;
+  color: #fff;
+	font-weight: $font-weight-light;
+}
+.brand-section-title{
+  color: #252525;
+  font-size: $font-size-large;
+  font-weight: 400;
+  text-align: left;
+}
+.brand-content ul li{
+	margin-bottom: 10px;
+	font-weight: $font-weight-light;
+	font-size: $font-size-normal;
+}
+.brand-content ul li .col-md-12{
+	padding-left: 0px;
+	padding-right: 0px;
+}
+.brand-content ul li .col-md-12 .col-md-4{
+	padding-left: 0px;
+	padding-right: 0px;
+}
+.brand-content ul li a{
+	color: #1189C6;
+	font-weight: $font-weight-regular;
+}
+.clear{
+	clear: both;
+}
+.brand-content .download-link{
+	padding-top: 75px;
 }

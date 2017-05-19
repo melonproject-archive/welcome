@@ -8,6 +8,7 @@ import '/imports/ui/layouts/footer.js';
 import '/imports/ui/pages/landing.js';
 import '/imports/ui/pages/about.js';
 import '/imports/ui/pages/learn.js';
+import '/imports/ui/pages/brand.js';
 
 FlowRouter.route('/', {
   name: 'landing',
@@ -49,6 +50,17 @@ FlowRouter.route('/learn', {
     BlazeLayout.render('layout_main', {
       nav: 'layout_header',
       main: 'learn',
+      footer: 'layout_footer',
+    });
+  },
+});
+
+FlowRouter.route('/brand', {
+  name: 'brand',
+  action() {
+    BlazeLayout.render('layout_main', {
+      nav: 'layout_header',
+      main: 'brand',
       footer: 'layout_footer',
     });
   },
