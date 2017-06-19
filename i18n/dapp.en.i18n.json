@@ -183,6 +183,7 @@
       "learn": "Learn",
       "firm": "Firm",
       "about": "About",
+      "blog": "Blog",
       "portal": "Portal",
       "english": "English",
       "korean": ""
@@ -193,6 +194,7 @@
       "brand": "Brand",
       "portal": "Portal",
       "about": "About",
+      "blog": "Blog",
       "copyright": "Copyright © 2017. All Right Reserved"
     }
   }
