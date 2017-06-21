@@ -1,12 +1,12 @@
 {
   "pages": {
     "landing": {
-      "title": "Blockchain Software for Asset Management",
-      "subtitle": "Built initially on the Ethereum Platform",
+      "title": "Agnostic Blockchain Software for Asset Management",
+      "subtitle": "Built on the Ethereum Platform",
       "newsletter": "Subscribe to Our Newsletter",
       "count": {
         "one": {
-          "title": "$15.0B",
+          "title": "$100.0B",
           "subtitle": "Total market capitalisation of the digital asset market today"
         },
         "two": {
