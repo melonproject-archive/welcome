@@ -6,6 +6,7 @@
     "test": "npm run lint"
   },
   "dependencies": {
+    "babel-runtime": "^6.23.0",
     "meteor-node-stubs": "~0.2.0"
   },
   "description": "<img src = \"https://github.com/melonproject/branding/blob/master/facebook/Facebook%20cover%20blue%20on%20white.png\" width = \"100%\">",
