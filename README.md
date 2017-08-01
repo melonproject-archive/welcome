@@ -4,7 +4,11 @@
 
 Application of the melon [website](https://melonport.com). 
 
-[![Slack Status](http://chat.melonport.com/badge.svg)](http://chat.melonport.com) [![Gitter](https://badges.gitter.im/melonproject/general.svg)](https://gitter.im/melonproject/general?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+[![Gitter][gitter-badge]][gitter-url]
+[![License: GPL v3][license-badge]][license-badge-url]
+[![Dependencies][dependencies-badge]][dependencies-badge-url]
+[![Dev Dependencies][devDependencies-badge]][devDependencies-badge-url]
+[![NSP Status][NSP Status badge]][NSP Status]
 
 
 ## Installation
@@ -28,3 +32,8 @@ After installation is complete, go to the above `website` directory, open a term
   ```
   meteor
   ```
+
+[gitter-badge]: https://img.shields.io/gitter/room/melonproject/general.js.svg?style=flat-square
+[gitter-url]: https://gitter.im/melonproject/general?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge
+[license-badge]: https://img.shields.io/badge/License-GPL%20v3-blue.svg?style=flat-square
+[license-badge-url]: ./LICENSE
