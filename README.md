@@ -37,3 +37,9 @@ After installation is complete, go to the above `website` directory, open a term
 [gitter-url]: https://gitter.im/melonproject/general?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge
 [license-badge]: https://img.shields.io/badge/License-GPL%20v3-blue.svg?style=flat-square
 [license-badge-url]: ./LICENSE
+[dependencies-badge]: https://img.shields.io/david/melonproject/melon.js.svg?style=flat-square
+[dependencies-badge-url]: https://david-dm.org/melonproject/melon.js
+[devDependencies-badge]: https://img.shields.io/david/dev/melonproject/melon.js.svg?style=flat-square
+[devDependencies-badge-url]: https://david-dm.org/melonproject/portal#info=devDependencies
+[NSP Status badge]: https://nodesecurity.io/orgs/melonproject/projects/cb1dd04e-1069-4ffd-8210-70ec757ed3de/badge?style=flat-square
+[NSP Status]: https://nodesecurity.io/orgs/melonproject/projects/cb1dd04e-1069-4ffd-8210-70ec757ed3de
