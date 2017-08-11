@@ -1,4 +1,4 @@
-<img src = "https://github.com/melonproject/branding/blob/master/facebook/Facebook%20cover%20blue%20on%20white.png" width = "100%">
+## The project has been moved to this new repo https://github.com/melonport/website/blob/master/CNAME
 
 # website
 
