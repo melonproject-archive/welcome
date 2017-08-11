@@ -1,4 +1,4 @@
-## The project has been moved to this new repo https://github.com/melonport/website/blob/master/CNAME
+## The project has been moved to this new repo https://github.com/melonport/website/
 
 # website
 
